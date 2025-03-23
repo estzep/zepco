@@ -5,6 +5,7 @@
 ?>
 <?php include("src/components/Navbar/Navbar.php");?>
 <main>
+    this is the app
     <?php
         $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
