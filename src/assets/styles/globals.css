@@ -7,3 +7,6 @@
     --light-text: var(--white);
     --light-icon: var(--white-filter);
 }
+body {
+    font-family: "Montserrat", sans-serif;
+}
