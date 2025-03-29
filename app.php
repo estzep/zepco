@@ -1,3 +1,4 @@
+<?php include("src/components/ContactBar/component.php");?>
 <?php include("src/components/Navbar/component.php");?>
 <main>
     <?php
@@ -5,7 +6,7 @@
 
         switch ($page) {
             case '/':
-                include('src/pages/Home/Home.php');
+                include('src/pages/Home/page.php');
                 break;
             default:
                 http_response_code(404);
