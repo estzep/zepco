@@ -3,7 +3,6 @@
 <div class="contactBar">
     <div class="container">
         <div class="content">
-            Contact Bar
             <div class="hours">
                 <p>
                     <img src="<?php echo $path; ?>src/assets/icons/clock.svg" alt="clock" class="icon">Horario de atención Lunes - Viernes | 9:00 hrs - 19:00 hrs
