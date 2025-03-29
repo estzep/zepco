@@ -1,0 +1,9 @@
+:root {
+    --white: #FFFFFF;
+    --white-filter: invert(1);
+    --dark-blue: #102337;
+
+
+    --light-text: var(--white);
+    --light-icon: var(--white-filter);
+}

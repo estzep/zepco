@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="src/pages/Home/Home.css">
+<link rel="stylesheet" href="src/pages/Home/styles.css">
+
 <section class="home">
     <div class="container">
         <div class="content">
