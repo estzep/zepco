@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="src/components/HeroSection/styles.css">
 
-<section class="heroSection">
+<section id="home" class="heroSection">
 
     <div id="heroSectionCarousel" class="carousel slide">
         <div class="carousel-indicators">

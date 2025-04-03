@@ -8,6 +8,9 @@
             case '/':
                 include('src/pages/Home/page.php');
                 break;
+            case '/team':
+                include('src/pages/Team/page.php');
+                break;
             default:
                 http_response_code(404);
                 include('src/pages/Error.php');
