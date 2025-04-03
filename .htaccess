@@ -1,19 +1,11 @@
 RewriteEngine On
 
-# Add trailing slash to directories
 RewriteCond %{REQUEST_URI} !(\.[^./]+)$
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteRule ^(.*)$ /$1/ [L,R=301]
 
-# Handle asset requests (CSS, JS, images, etc.)
-RewriteCond %{REQUEST_URI} \.(css|js|jpg|jpeg|png|gif|svg|ico|woff|woff2|ttf|eot)$ [NC]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ /$1 [L]
-
-# Allow direct access to src and files directories
 RewriteCond %{REQUEST_URI} !^/src/
 RewriteCond %{REQUEST_URI} !^/files/
 
-# Route everything else to index.php
 RewriteCond %{REQUEST_URI} !^/index\.php$
 RewriteRule ^(.*)$ /index.php [L]
