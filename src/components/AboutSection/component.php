@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="src/components/AboutSection/styles.css">
+<link rel="stylesheet" href="/src/components/AboutSection/styles.css">
 
 <section id="about" class="aboutSection">
     <div class="container">

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="src/components/HeroSection/styles.css">
+<link rel="stylesheet" href="/src/components/HeroSection/styles.css">
 
 <section id="home" class="heroSection">
 
@@ -10,7 +10,7 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="src/assets/img/heroSection1.png" class="d-block w-100" alt="Hero Section 1">
+                <img src="/src/assets/img/heroSection1.png" class="d-block w-100" alt="Hero Section 1">
                 <div class="container">
                     <div class="content">
                         Hero Section
@@ -18,10 +18,10 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="src/assets/img/heroSection1.png" class="d-block w-100" alt="Hero Section 1">
+                <img src="/src/assets/img/heroSection1.png" class="d-block w-100" alt="Hero Section 1">
             </div>
             <div class="carousel-item">
-                <img src="src/assets/img/heroSection1.png" class="d-block w-100" alt="Hero Section 1">
+                <img src="/src/assets/img/heroSection1.png" class="d-block w-100" alt="Hero Section 1">
             </div>
         </div>
     </div>

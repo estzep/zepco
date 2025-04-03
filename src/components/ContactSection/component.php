@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="src/components/ContactSection/styles.css">
+<link rel="stylesheet" href="/src/components/ContactSection/styles.css">
 
 <section id="contact" class="contactSection">
     <div class="container">

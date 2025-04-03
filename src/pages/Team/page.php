@@ -7,4 +7,4 @@
         </div>
     </div>
 </section> 
-<?php include("/src/components/ContactSection/component.php");?>
+<?php include("src/components/ContactSection/component.php");?>
