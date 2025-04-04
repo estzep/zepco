@@ -4,10 +4,18 @@ document.addEventListener("DOMContentLoaded", function() {
         var navbarHeight = navbar.offsetHeight;
         document.documentElement.style.setProperty('--navbar-height', navbarHeight + "px");
     }
+
+    function contactBarHeight() {
+        var contactBar = document.getElementById("contactBar");
+        var contactBarHeight = contactBar.offsetHeight;
+        document.documentElement.style.setProperty('--contact-bar-height', contactBarHeight + "px");
+    }
     
     navbarHeight();
+    contactBarHeight();
     
     window.addEventListener("resize", function() {
         navbarHeight();
+        contactBarHeight();
     });
 });

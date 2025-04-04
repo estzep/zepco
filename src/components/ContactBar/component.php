@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/src/components/ContactBar/styles.css">
 
-<div class="contactBar">
+<div id="contactBar" class="contactBar">
     <div class="container">
         <div class="content">
             <div class="hours">
