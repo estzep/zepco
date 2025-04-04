@@ -3,7 +3,8 @@
 .navbar .content { position: relative; display: flex;  }
 
 .navbar .content .logo { flex: 0 1 auto; width: auto; }
-.navbar .content .logo img { width: 100%; height: 3.25rem; object-fit: contain; }
+.navbar .content .logo a { display: inline-block; width: 100%; height: 100%; }
+.navbar .content .logo img { width: auto; height: 3.25rem; object-fit: contain; }
 
 .navbar .content .links { flex: 1 0 auto; width: 100%; }
 .navbar .content .links ul { display: flex;  }
