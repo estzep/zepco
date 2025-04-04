@@ -1,5 +1,5 @@
 .navbar { position: sticky; top: 0; z-index: 20; border-bottom: 1px solid rgba(255, 255, 255, 0.2); padding: 0; background: transparent; transition: 0.5s; }
-.navbar.scrolled { background: var(--dark-background); }
+.navbar.scrolled { background: var(--dark-blue); }
 .navbar .container { position: relative; display: block; }
 .navbar .content { position: relative; padding: 1.25rem 0; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; }
 
