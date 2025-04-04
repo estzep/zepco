@@ -3,7 +3,7 @@
 .navbar .container { position: relative; display: block; }
 .navbar .content { position: relative; padding: 1.25rem 0; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: stretch; }
 
-.navbar .content .logo { flex: 0 1 auto; width: auto; }
+.navbar .content .logo { flex: 0 1 auto; width: auto; z-index: 11; }
 .navbar .content .logo a { display: inline-block; width: 100%; height: 100%; }
 .navbar .content .logo img { width: auto; height: 3.25rem; object-fit: contain; }
 
@@ -13,7 +13,7 @@
 .navbar .content .links ul li.active { border-bottom: 1px solid var(--light-text); }
 .navbar .content .links ul li a { display: inline-block; font-size: 1rem; font-weight: 400; line-height: 1; color: var(--light-text); text-decoration: none; padding: 0.75rem 1rem; }
 
-.navbar .content .toggler { flex: 0 1 auto; width: auto; display: none; }
+.navbar .content .toggler { flex: 0 1 auto; width: auto; display: none; z-index: 11; }
 .navbar .content .toggler button { display: inline-block; background: transparent; border: none; padding: 0; margin: 0; line-height: 1; }
 .navbar .content .toggler button span { display: block; width: 2rem; height: .2rem; background: var(--light-text); border-radius: .2rem; margin: .25rem 0; }
 
@@ -28,7 +28,7 @@
     .navbar .content .toggler { display: block; }
     .navbar.open { background: var(--dark-blue); }
     .navbar.open .content .links { transform: translateY(0); opacity: 1; }
-    .navbar .content .links { position: fixed; top: var(--navbar-height); right: 0; bottom: 0; left: 0; width: 100%; height: 100%; background: var(--dark-blue); z-index: 10; transform: translateY(100%); opacity: 0; transition: 0.5s; }
+    .navbar .content .links { position: fixed; top: var(--navbar-height); right: 0; bottom: 0; left: 0; width: 100%; height: 100%; background: var(--dark-blue); z-index: 10; transform: translateY(-100%); opacity: 0; transition: 0.5s; padding-top: 2.5rem; }
     .navbar .content .links ul { flex-direction: column; justify-content: flex-start; }
 }
 
