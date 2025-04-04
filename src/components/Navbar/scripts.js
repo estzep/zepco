@@ -6,13 +6,13 @@ document.addEventListener('DOMContentLoaded', function() {
     function setActiveSection() {
         const scrollPosition = window.scrollY + navbar.offsetHeight;
 
-        sections.forEach(section => {
+        Array.from(sections).forEach(section => {
             const sectionTop = section.offsetTop;
             const sectionHeight = section.offsetHeight;
             const sectionId = section.getAttribute('id');
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                navItems.forEach(item => {
+                Array.from(navItems).forEach(item => {
                     item.classList.remove('active');
                     if (item.getAttribute('data-target') === sectionId) {
                         item.classList.add('active');
