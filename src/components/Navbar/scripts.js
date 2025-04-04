@@ -1,14 +1,38 @@
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.getElementById('navbar');
-    var navbarHeight = navbar.offsetHeight;
+    const sections = document.getElementsByTagName('section');
+    const navItems = navbar.getElementsByClassName('link-item');
 
+    function setActiveSection() {
+        const scrollPosition = window.scrollY + navbar.offsetHeight;
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.offsetHeight;
+            const sectionId = section.getAttribute('id');
+
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('data-target') === sectionId) {
+                        item.classList.add('active');
+                    }
+                });
+            }
+        });
+    }
+
+    var navbarHeight = navbar.offsetHeight;
     window.addEventListener('scroll', function() {
         if (window.scrollY >= navbarHeight) {
             navbar.classList.add('scrolled');
         } else {
             navbar.classList.remove('scrolled');
         }
+        setActiveSection();
     });
+
+    setActiveSection();
 });
 
 function openNavbar() {
