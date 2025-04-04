@@ -30,3 +30,5 @@
         </div>
     </div>
 </nav>
+
+<script src="/src/components/Navbar/scripts.js"></script>
