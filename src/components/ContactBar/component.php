@@ -10,10 +10,10 @@
             </div>
             <div class="contacts">
                 <p class="phone">
-                    <img src="/src/assets/icons/phone.svg" alt="phone" class="icon">+52 (55) 2142-42342
+                    <img src="/src/assets/icons/phone.svg" alt="phone" class="icon"><a href="tel:+5255214242342">+52 (55) 2142-42342</a>
                 </p>
                 <p class="email">
-                    <img src="/src/assets/icons/mail.svg" alt="email" class="icon">info@zepco.com.mx
+                    <img src="/src/assets/icons/mail.svg" alt="email" class="icon"><a href="mailto:info@zepco.com.mx">info@zepco.com.mx</a>
                 </p>
             </div>
         </div>
