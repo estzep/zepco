@@ -27,6 +27,13 @@
                     </li>
                 </ul>
             </div>
+            <div class="toggler">
+                <button onclick="toggleNavbar()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
         </div>
     </div>
 </nav>
