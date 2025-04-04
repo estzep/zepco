@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="/src/components/Navbar/styles.css">
 
-<nav class="navbar">
+<nav id="navbar" class="navbar">
     <div class="container">
         <div class="content">
             <div class="logo">
