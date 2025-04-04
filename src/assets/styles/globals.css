@@ -21,7 +21,7 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
-
+body.navbar-open { overflow: hidden; }
 img { -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none; }
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */

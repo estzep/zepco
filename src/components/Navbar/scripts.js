@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.getElementById('navbar');
     var navbarHeight = navbar.offsetHeight;
-    const contactBar = document.getElementById('contactBar');
-    var contactBarHeight = contactBar.offsetHeight;
 
     window.addEventListener('scroll', function() {
         if (window.scrollY >= navbarHeight) {
@@ -15,26 +13,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function openNavbar() {
     const navbar = document.getElementById('navbar');
-
-    const contactBar = document.getElementById('contactBar');
-    var contactBarHeight = contactBar.offsetHeight;
-
+    const body = document.body;
 
     navbar.classList.add('open');
-
-    if (window.scrollY >= contactBarHeight) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
+    body.classList.add('navbar-open');
 }
 
 function closeNavbar() {
     const navbar = document.getElementById('navbar');
+    const body = document.body;
+
     navbar.classList.remove('open');
+    body.classList.remove('navbar-open');
 }
 
 function toggleNavbar() {
     const navbar = document.getElementById('navbar');
-    navbar.classList.toggle('open');
+    if (navbar.classList.contains('open')) {
+        closeNavbar();
+    } else {
+        openNavbar();
+    }
 }
