@@ -4,7 +4,7 @@
     <div class="container">
         <div class="content">
             <div class="about">
-                <img src="/src/assets/img/full-zepco-logo.svg" alt="Logo de Zepco">
+                <a href="/"><img src="/src/assets/img/full-zepco-logo.svg" alt="Logo de Zepco"></a>
                 <p>Somos un despacho de abogados en Ciudad de México con más de 48 años de experiencia en temas de litigio.</p>
             </div>
             <div class="link-columns">
