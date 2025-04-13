@@ -4,7 +4,11 @@
     <div class="container">
         <div class="content">
             <div class="text">
-                <h2>Bienvenido a Zepeda Torres Moreno & Asociados</h2>
+                <h2>
+                    Bienvenido a Zepeda Torres
+                    <br>
+                    Moreno & Asociados
+                </h2>
                 <p>
                     Zepeda, Torres, Moreno & Asociados fue fundado en 1975, y desde entonces ofrece servicios legales integrales en México, combinando asesoría estratégica y litigio de alta especialización. Nuestro equipo cuenta con amplia experiencia en la planeación legal de proyectos inmobiliarios y corporativos, tanto a nivel nacional como internacional, incluyendo jurisdicciones de Common Law.
                     <br>
