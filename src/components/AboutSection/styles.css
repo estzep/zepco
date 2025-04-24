@@ -10,4 +10,4 @@
 .aboutSection .container .content .image { flex: 1 0 calc(40% - 2.25rem); }
 .aboutSection .container .content .image img { display: block; width: 100%; height: 100%; object-fit: cover; padding-bottom: 3rem; }
 
-.aboutSection .square { position: absolute; bottom: 5rem; right: 0; z-index: 2; background: var(--dark-blue); }
+.aboutSection .square { position: absolute; bottom: 5rem; right: 0; z-index: 2; background: var(--dark-blue); width: 32rem; height: 8rem; }
