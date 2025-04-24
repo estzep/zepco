@@ -1,0 +1,39 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "derecho-inmobiliario",
+            "title": "Derecho Inmobiliario",
+            "description": "Asesoría legal integral en todas las etapas de proyectos inmobiliarios: desarrollos residenciales, comerciales, industriales y hoteleros.",
+            "image": "/src/assets/img/services/derecho-inmobiliario.png"
+        },
+        {
+            "id": 2,
+            "name": "propiedad-intelectual",
+            "title": "Propiedad Intelectual",
+            "description": "Protegemos marcas, patentes, derechos de autor y otros activos intangibles. Asesoramos tanto en la vía administrativa como judicial.",
+            "image": "/src/assets/img/services/propiedad-intelectual.png"
+        },
+        {
+            "id": 3,
+            "name": "litigio-civil-mercantil-familiar-corporativo",
+            "title": "Litigio en Materia Civil, Mercantil, Familiar y Corporativo",
+            "description": "Representación legal especializada en controversias patrimoniales, familiares y societarias.",
+            "image": "/src/assets/img/services/litigio-civil-mercantil-familiar-corporativo.png"
+        },
+        {
+            "id": 4,
+            "name": "estructuracion-corporativa",
+            "title": "Estructuración Corporativa",
+            "description": "Asesoramos a empresas e inversionistas en la creación de estructuras legales sólidas y eficientes, con atención especializada en proyectos con participación extranjera.",
+            "image": "/src/assets/img/services/estructuracion-corporativa.png"
+        },
+        {
+            "id": 5,
+            "name": "proteccion-matrimonial",
+            "title": "Protección Matrimonial",
+            "description": "Diseñamos estrategias legales para proteger su patrimonio, incluyendo capitulaciones, fideicomisos, testamentos y estructuras patrimoniales.",
+            "image": "/src/assets/img/services/proteccion-matrimonial.png"
+        }
+    ]
+} 
