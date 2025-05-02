@@ -1,6 +1,6 @@
 .servicesSection {  }
 .servicesSection .container {  }
-.servicesSection .content {  }
+.servicesSection .content { padding: 5rem 0; }
 .servicesSection .content h2 {  }
 .servicesSection .content .serviceCards {  }
 .servicesSection .content .serviceCard {  }
