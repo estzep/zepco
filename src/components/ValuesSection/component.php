@@ -46,8 +46,8 @@
                     <div class="icon">
                         <img src="<?php echo $value['icon']; ?>" alt="<?php echo $value['alt']; ?>">
                     </div>
-                    <h4><?php echo $value['title']; ?></h4>
-                    <p><?php echo $value['description']; ?></p>
+                    <h4 class="title"><?php echo $value['title']; ?></h4>
+                    <p class="description"><?php echo $value['description']; ?></p>
                 </div>
                 <?php endforeach; ?>
 

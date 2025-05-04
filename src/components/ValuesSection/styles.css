@@ -1,1 +1,11 @@
 .valuesSection {  }
+.valuesSection .container {  }
+.valuesSection .content { padding: 7.5rem 0; }
+.valuesSection .content h2 {  }
+.valuesSection .content .subtitle {  }
+.valuesSection .content .values {  }
+.valuesSection .content .values .value {  }
+.valuesSection .content .values .value .icon {  }
+.valuesSection .content .values .value .icon img {  }
+.valuesSection .content .values .value .title {  }
+.valuesSection .content .values .value .description {  }
