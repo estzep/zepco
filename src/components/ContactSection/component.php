@@ -48,7 +48,6 @@
                             <a href="mailto:info@zepco.com.mx"><img src="/src/assets/icons/mail.svg" alt="email" class="icon">info@zepco.com.mx</a>
                         </p>
                     </div>
-                    
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.503687881001!2d-99.1757880246867!3d19.433838740641214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8b482724999%3A0x1108f5ae786e277b!2sZepeda%20Abogados%20S.C.!5e0!3m2!1ses-419!2smx!4v1746557507662!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
