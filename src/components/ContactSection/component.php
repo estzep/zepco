@@ -35,7 +35,7 @@
                     <div class="infoItem">
                         <p>
                             <a href="https://maps.app.goo.gl/v7cAvqZ8Co9GmCnY6" target="_blank">
-                                <img src="/src/assets/icons/location.svg" alt="location" class="icon">
+                                <img src="/src/assets/icons/map-pin.svg" alt="location" class="icon">
                                 Calle Bahía de la Concepción #14 Cuarto Piso, Colonia Verónica Anzures, 11300, Ciudad de México
                             </a>
                         </p>
