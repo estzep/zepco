@@ -12,6 +12,7 @@
 :root {
     --white: #FFFFFF;
     --white-filter: invert(1);
+    --dark-white: #EFEEED;
     --black: #000000;
     --dark-blue: #102337;
     --blue: #4E74B6;
