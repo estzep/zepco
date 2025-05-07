@@ -1,11 +1,11 @@
-.valuesSection {  }
+.valuesSection { background: linear-gradient(rgba(var(--dark-blue-rgb), 0.95), rgba(var(--dark-blue-rgb), 0.95)), url('/src/assets/img/values-section-bg.png') no-repeat center center; background-size: cover; }
 .valuesSection .container {  }
 .valuesSection .content { padding: 7.5rem 0; }
 .valuesSection .content h2 {  }
 .valuesSection .content .subtitle {  }
-.valuesSection .content .values {  }
-.valuesSection .content .values .value {  }
+.valuesSection .content .values { display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1.5rem; }
+.valuesSection .content .values .value { flex: 0 0 calc((100% / 3) - 1rem); width: calc((100% / 3) - 1rem); }
 .valuesSection .content .values .value .icon {  }
 .valuesSection .content .values .value .icon img {  }
-.valuesSection .content .values .value .title {  }
-.valuesSection .content .values .value .description {  }
+.valuesSection .content .values .value .title { color: var(--gold); font-size: 1.5rem; font-weight: 400; line-height: 1.2; font-family: 'RobotoSerif', sans-serif; margin-bottom: 1.5rem; }
+.valuesSection .content .values .value .description { color: var(--white); font-size: 1rem; font-weight: 400; line-height: 1.4; margin-bottom: 0; }

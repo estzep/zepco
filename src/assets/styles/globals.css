@@ -15,6 +15,7 @@
     --dark-white: #EFEEED;
     --black: #000000;
     --dark-blue: #102337;
+    --dark-blue-rgb: 16, 35, 55;
     --blue: #4E74B6;
     --gold: #FFDA89;
     --gold-filter: invert(92%) sepia(85%) saturate(523%) hue-rotate(315deg) brightness(96%) contrast(110%);
