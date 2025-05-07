@@ -18,7 +18,7 @@
 .contactSection .content .form .map .info .infoItem p { font-size: 1rem; font-weight: 400; line-height: 1.2; margin-bottom: 0.75rem; color: var(--text); }
 .contactSection .content .form .map .info .infoItem p a { color: inherit; text-decoration: none; }
 .contactSection .content .form .map .info .infoItem p .icon { display: inline-block; width: 1rem; height: 1rem; margin-right: 0.5rem; vertical-align: middle; }
-.contactSection .content .form .map iframe { width: 100%; }
+.contactSection .content .form .map iframe { width: 100%; padding-top: 1.5rem; }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
