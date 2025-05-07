@@ -1,8 +1,8 @@
 .valuesSection { background: linear-gradient(rgba(var(--dark-blue-rgb), 0.95), rgba(var(--dark-blue-rgb), 0.95)), url('/src/assets/img/values-section-bg.png') no-repeat center center; background-size: cover; }
 .valuesSection .container {  }
 .valuesSection .content { padding: 7.5rem 0; }
-.valuesSection .content h2 {  }
-.valuesSection .content .subtitle {  }
+.valuesSection .content h2 { color: var(--white); }
+.valuesSection .content .subtitle { color: var(--white); }
 .valuesSection .content .values { display: flex; flex-direction: row; flex-wrap: nowrap; gap: 1.5rem; }
 .valuesSection .content .values .value { flex: 0 0 calc((100% / 3) - 1rem); width: calc((100% / 3) - 1rem); }
 .valuesSection .content .values .value .icon {  }
