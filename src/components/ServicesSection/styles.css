@@ -2,8 +2,8 @@
 .servicesSection .container {  }
 .servicesSection .content { padding: 5rem 0; }
 .servicesSection .content h2 { font-size: 2.5rem; font-weight: 400; line-height: 1.2; margin-bottom: 0; text-align: center; font-family: "RobotoSerif", sans-serif; }
-.servicesSection .content .serviceCards { --gap: 1.5rem; display: flex; flex-wrap: wrap; gap: var(--gap); }
-.servicesSection .content .serviceCard { flex: 0 0 calc((100% / 3) - (var(--gap) / 2)); width: calc((100% / 3) - (var(--gap) / 2)); display: flex; }
+.servicesSection .content .serviceCards { --gap: 1.5rem; display: flex; flex-wrap: wrap; flex-direction: row; align-content: flex-start; justify-content: center; align-items: stretch; gap: var(--gap); }
+.servicesSection .content .serviceCard { flex: 0 0 calc((100% / 3) - var(--gap)); width: calc((100% / 3) - var(--gap)); display: flex; }
 .servicesSection .content .serviceCard .image {  }
 .servicesSection .content .serviceCard .image img {  }
 .servicesSection .content .serviceCard .cardContent { display: flex; }
