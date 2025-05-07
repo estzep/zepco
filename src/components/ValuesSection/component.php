@@ -3,21 +3,21 @@
         'values' => [
             [
                 'id' => 'team',
-                'icon' => '/src/assets/img/values/team.svg',
+                'icon' => '/src/assets/icons/team.svg',
                 'alt' => 'Team',
                 'title' => 'Equipo<br>Especializado',
                 'description' => 'Abogados altamente capacitados lo que nos permite ofrecer soluciones jurídicas integrales, precisas y estratégicas.'
             ],
             [
                 'id' => 'experience',
-                'icon' => '/src/assets/img/values/experience.svg',
+                'icon' => '/src/assets/icons/experience.svg',
                 'alt' => 'Experience',
                 'title' => 'Experiencia y<br>Trayectoria',
                 'description' => 'Con más de 48 años de práctica jurídica, hemos acompañado a empresas, inversionistas y particulares en sus operaciones.'
             ],
             [
                 'id' => 'commitment',
-                'icon' => '/src/assets/img/values/commitment.svg',
+                'icon' => '/src/assets/icons/commitment.svg',
                 'alt' => 'Commitment',
                 'title' => 'Compromiso y <br>Responsabilidad',
                 'description' => 'Atendemos cada caso con atención personalizada. Nos involucramos a fondo, y proponemos soluciones profesionales.'
