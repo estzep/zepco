@@ -4,9 +4,4 @@
 .heroSection .content h1 { font-size: 3.5rem; font-weight: 400; color: var(--light-text); margin-bottom: 1.5rem; line-height: 1.2; font-family: "RobotoSerif", sans-serif; max-width: 623px; }
 .heroSection .content p { font-size: 1.25rem; font-weight: 400; color: var(--light-text); margin-bottom: 0; line-height: 1.4; max-width: 860px; }
 
-.heroSection .carousel { position: relative; height: 100%; width: 100%; }
-.heroSection .carousel .carousel-indicators { gap: 0.5rem; margin-bottom: 1.5rem; z-index: 3; }
-.heroSection .carousel .carousel-indicators button { width: 1.75rem; height: 0.4rem; border-radius: 0.2rem; border: 0; }
-.heroSection .carousel .carousel-inner { position: relative; height: 100%; width: 100%; }
-.heroSection .carousel .carousel-inner .carousel-item { height: 100%; width: 100%; }
-.heroSection .carousel .carousel-inner .carousel-item img { position: absolute; display: block; height: 100%; width: 100%; object-fit: cover; z-index: 1; }
+.heroSection img { position: absolute; display: block; height: 100%; width: 100%; object-fit: cover; z-index: 1; }
