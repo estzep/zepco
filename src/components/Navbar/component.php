@@ -10,20 +10,20 @@
             </div>
             <div class="links">
                 <ul>
-                    <li class="link-item active" data-target="home">
-                        <a href="/">Inicio</a>
+                    <li class="link-item active">
+                        <a href="/#about" onclick="goTo('home')">Inicio</a>
                     </li>
-                    <li class="link-item" data-target="about">
-                        <a href="/">Nosotros</a>
+                    <li class="link-item">
+                        <a href="javascript:void(0)" onclick="goTo('about')">Nosotros</a>
                     </li>
-                    <li class="link-item" data-target="services">
-                        <a href="/">Servicios Jurídicos</a>
+                    <li class="link-item">
+                        <a href="javascript:void(0)" onclick="goTo('services')">Servicios Jurídicos</a>
                     </li>
                     <li class="link-item">
                         <a href="/team">Equipo</a>
                     </li>
-                    <li class="link-item" data-target="contact">
-                        <a href="/">Contacto</a>
+                    <li class="link-item">
+                        <a href="javascript:void(0)" onclick="goTo('contact')">Contacto</a>
                     </li>
                 </ul>
             </div>

@@ -59,3 +59,8 @@ function toggleNavbar() {
         openNavbar();
     }
 }
+
+function goTo(that) {
+    e.preventDefault();
+    const href = that.getAttribute('href');
+}
