@@ -7,8 +7,8 @@
     <meta name="author" content="Qarta Online">
     <title>ZepCo</title>
     <meta name="description" content="Zepco">
-    <link rel="canonical" href="https://zepco.qartaonline.com/">
-    <meta name="url" content="https://zepco.qartaonline.com/">
+    <link rel="canonical" href="https://zepco.mx/">
+    <meta name="url" content="https://zepco.mx/">
     
     <!-- Favicon and icons -->
     <link rel="icon" href="./favicon.ico">
