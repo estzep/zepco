@@ -4,7 +4,7 @@
     <div class="container">
         <div class="content">
             <h2>Ponte en Contacto</h2>
-            <p class="description">Para contactarnos, llena el formulario y nos pondremos en contacto a la brevedad o bien llama al (55) 5260-6244.</p>
+            <p class="description">Para contactarnos, llena el formulario y nos pondremos en contacto a la brevedad o bien llama al <a href="tel:+525552606244,0">+52 (55) 5260 6244 ext. 0</a>.</p>
             <div class="form">
                 <form action="">
                     <div class="formGroup">
@@ -40,10 +40,10 @@
                         </div>
                         <div class="infoItem">
                             <p> 
-                                <a href="tel:+5255214242342"><img src="/src/assets/icons/phone.svg" alt="phone" class="icon">+52 (55) 2142-42342</a>
+                                <a href="tel:+525552606244,0"><img src="/src/assets/icons/phone.svg" alt="phone" class="icon">+52 (55) 5260 6244 ext. 0</a>
                             </p>
                             <p>
-                                <a href="mailto:info@zepco.com.mx"><img src="/src/assets/icons/mail.svg" alt="email" class="icon">info@zepco.com.mx</a>
+                                <a href="mailto:zepedaabogados@zepco.com.mx"><img src="/src/assets/icons/mail.svg" alt="email" class="icon">zepedaabogados@zepco.com.mx</a>
                             </p>
                         </div>
                     </div>

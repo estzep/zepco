@@ -13,7 +13,7 @@
                 'icon' => '/src/assets/icons/experience.svg',
                 'alt' => 'Experience',
                 'title' => 'Experiencia y<br>Trayectoria',
-                'description' => 'Con más de 48 años de práctica jurídica, hemos acompañado a empresas, inversionistas y particulares en sus operaciones.'
+                'description' => 'Con casi 50 años de práctica jurídica, hemos acompañado a empresas, inversionistas y particulares en sus operaciones.'
             ],
             [
                 'id' => 'commitment',

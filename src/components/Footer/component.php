@@ -14,7 +14,7 @@
                         <li><a href="/#home">Inicio</a></li>
                         <li><a href="/#about">Nosotros</a></li>
                         <li><a href="/#services">Servicios Jurídicos</a></li>
-                        <li><a href="/team">Equipo</a></li>
+                        <!-- <li><a href="/team">Equipo</a></li> -->
                         <li><a href="/#contact">Contacto</a></li>
                     </ul>
                 </div>
@@ -31,8 +31,8 @@
                 <div class="link-column">
                     <h3>Información</h3>
                     <ul>
-                        <li><a href="mailto:info@zepco.com.mx"><img src="/src/assets/icons/mail.svg" alt="Correo electrónico" class="icon">info@zepco.com.mx</a></li>
-                        <li><a href="tel:+5255214242342"><img src="/src/assets/icons/phone.svg" alt="Teléfono" class="icon">+52 (55) 2142-42342</a></li>
+                        <li><a href="mailto:zepedaabogados@zepco.com.mx"><img src="/src/assets/icons/mail.svg" alt="Correo electrónico" class="icon">zepedaabogados@zepco.com.mx</a></li>
+                        <li><a href="tel:+525552606244,0"><img src="/src/assets/icons/phone.svg" alt="Teléfono" class="icon">+52 (55) 5260 6244 ext. 0</a></li>
                         <li><a href="https://maps.app.goo.gl/XER4Q3CTpkLnfZWn6" target="_blank"><img src="/src/assets/icons/map-pin.svg" alt="Ubicación" class="icon">Calle Bahía de la Concepción #14 Cuarto Piso, Colonia Verónica Anzures, 11300, Ciudad de México</a></li>
                     </ul>
                 </div>
