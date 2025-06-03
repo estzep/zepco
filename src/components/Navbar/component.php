@@ -11,19 +11,19 @@
             <div class="links">
                 <ul>
                     <li class="link-item active">
-                        <a href="/#about" onclick="goTo('home')">Inicio</a>
+                        <a href="/#home">Inicio</a>
                     </li>
                     <li class="link-item">
-                        <a href="javascript:void(0)" onclick="goTo('about')">Nosotros</a>
+                        <a href="/#about">Nosotros</a>
                     </li>
                     <li class="link-item">
-                        <a href="javascript:void(0)" onclick="goTo('services')">Servicios Jurídicos</a>
+                        <a href="/#services">Servicios Jurídicos</a>
                     </li>
                     <li class="link-item">
                         <a href="/team">Equipo</a>
                     </li>
                     <li class="link-item">
-                        <a href="javascript:void(0)" onclick="goTo('contact')">Contacto</a>
+                        <a href="/#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
