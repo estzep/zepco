@@ -10,19 +10,19 @@
             </div>
             <div class="links">
                 <ul>
-                    <li class="link-item active">
+                    <li class="link-item active" data-target="home">
                         <a href="/#home">Inicio</a>
                     </li>
-                    <li class="link-item">
+                    <li class="link-item" data-target="about">
                         <a href="/#about">Nosotros</a>
                     </li>
-                    <li class="link-item">
+                    <li class="link-item" data-target="services">
                         <a href="/#services">Servicios Jurídicos</a>
                     </li>
                     <li class="link-item">
                         <a href="/team">Equipo</a>
                     </li>
-                    <li class="link-item">
+                    <li class="link-item" data-target="contact">
                         <a href="/#contact">Contacto</a>
                     </li>
                 </ul>
