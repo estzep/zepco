@@ -1,3 +1,14 @@
+<!-- Nombre completo:
+Dirección de correo electrónico:
+Número de teléfono fijo:
+Número de teléfono celular:
+Tipo de servicio legal requerido:
+Breve resumen:
+Vía para contactarle: Email:
+Teléfono celular: (Llamada - WhatsApp - Mensaje de Texto)
+Teléfono Fijo: -->
+
+
 <link rel="stylesheet" href="/src/components/ContactSection/styles.css">
 
 <section id="contact" class="contactSection">
@@ -15,9 +26,13 @@
                         <label for="email">Correo electrónico</label>
                         <input id="email" name="email" type="email" placeholder="Ingresa tu correo electrónico">
                     </div>
-                    <div class="formGroup">
-                        <label for="tel">Teléfono</label>
-                        <input id="tel" name="tel" type="tel" placeholder="Ingresa tu teléfono">
+                    <div class="formGroup formGroup2">
+                        <label for="telFijo">Teléfono fijo</label>
+                        <input id="telFijo" name="telFijo" type="tel" placeholder="Ingresa tu teléfono fijo">
+                    </div>
+                    <div class="formGroup formGroup2">
+                        <label for="telCelular">Teléfono celular</label>
+                        <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular">
                     </div>
                     <div class="formGroup">
                         <label for="message">Mensaje</label>
@@ -26,7 +41,6 @@
                     <div class="formGroup">
                         <button type="submit" class="btn btnType1">Enviar</button>
                     </div>
-                    
                 </form>
                 <div class="map">
                     <div class="info">
