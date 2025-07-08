@@ -8,6 +8,11 @@ Vía para contactarle: Email:
 Teléfono celular: (Llamada - WhatsApp - Mensaje de Texto)
 Teléfono Fijo: -->
 
+<?php
+// Load services data from JSON file
+$servicesData = json_decode(file_get_contents(__DIR__ . '/../../data/services.json'), true);
+$services = $servicesData['services'] ?? [];
+?>
 
 <link rel="stylesheet" href="/src/components/ContactSection/styles.css">
 
@@ -35,6 +40,17 @@ Teléfono Fijo: -->
                             <label for="telCelular">Teléfono celular</label>
                             <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular">
                         </div>
+                    </div>
+                    <div class="formGroup">
+                        <label for="service">Tipo de servicio legal requerido</label>
+                        <select id="service" name="service">
+                            <option value="">Selecciona un servicio</option>
+                            <?php foreach ($services as $service): ?>
+                                <option value="<?php echo htmlspecialchars($service['id']); ?>">
+                                    <?php echo htmlspecialchars($service['title']); ?>
+                                </option>
+                            <?php endforeach; ?>
+                        </select>
                     </div>
                     <div class="formGroup">
                         <label for="message">Mensaje</label>
