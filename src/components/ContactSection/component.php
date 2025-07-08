@@ -27,12 +27,14 @@ Teléfono Fijo: -->
                         <input id="email" name="email" type="email" placeholder="Ingresa tu correo electrónico">
                     </div>
                     <div class="formGroup formGroup2">
-                        <label for="telFijo">Teléfono fijo</label>
-                        <input id="telFijo" name="telFijo" type="tel" placeholder="Ingresa tu teléfono fijo">
-                    </div>
-                    <div class="formGroup formGroup2">
-                        <label for="telCelular">Teléfono celular</label>
-                        <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular">
+                        <div class="column">
+                            <label for="telFijo">Teléfono fijo</label>
+                            <input id="telFijo" name="telFijo" type="tel" placeholder="Ingresa tu teléfono fijo">
+                        </div>
+                        <div class="column">
+                            <label for="telCelular">Teléfono celular</label>
+                            <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular">
+                        </div>
                     </div>
                     <div class="formGroup">
                         <label for="message">Mensaje</label>
