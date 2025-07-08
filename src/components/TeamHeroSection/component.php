@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/src/components/TeamHeroSection/styles.css">
 
 <section id="team" class="teamHeroSection">
-    <img src="/src/assets/img/heroSection1.png" alt="Hero Section 1">
+    <img src="/src/assets/img/heroSection2.png" alt="Hero Section 2">
     <div class="container">
         <div class="content">
             <div class="column">
