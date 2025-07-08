@@ -57,6 +57,15 @@ $services = $servicesData['services'] ?? [];
                         <textarea id="message" name="message" placeholder="Ingresa tu mensaje" rows="4"></textarea>
                     </div>
                     <div class="formGroup">
+                        <label for="contactMethod">Vía para contactarle</label>
+                        <select id="contactMethod" name="contactMethod">
+                            <option value="0" disabled selected>Selecciona una vía</option>
+                            <option value="email">Email</option>
+                            <option value="telCelular">Teléfono celular (Llamada - WhatsApp - Mensaje de Texto)</option>
+                            <option value="telFijo">Teléfono fijo</option>
+                        </select>
+                    </div>
+                    <div class="formGroup">
                         <button type="submit" class="btn btnType1">Enviar</button>
                     </div>
                 </form>
