@@ -10,8 +10,8 @@
 .contactSection .content .form form .formGroup2 { --column-gap-2: 1rem; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: var(--column-gap-2); }
 .contactSection .content .form form .formGroup2 .column { flex: 1 0 calc(50% - (var(--column-gap-2) / 2)); }
 .contactSection .content .form form .formGroup label { font-size: 1rem; font-weight: 400; line-height: 1.4; margin-bottom: 0.75rem; display: block; width: 100%; }
-.contactSection .content .form form .formGroup :is(input, textarea) { display: block; width: 100%; border: 0; color: var(--text); background: var(--light-gray); padding: 0.75rem; font-size: 1rem; line-height: 1.2; font-weight: 400; }
-.contactSection .content .form form .formGroup :is(input, textarea)::placeholder { color: var(--gray); }
+.contactSection .content .form form .formGroup :is(input, textarea, select) { display: block; width: 100%; border: 0; color: var(--text); background: var(--light-gray); padding: 0.75rem; font-size: 1rem; line-height: 1.2; font-weight: 400; }
+.contactSection .content .form form .formGroup :is(input, textarea, select)::placeholder { color: var(--gray); }
 .contactSection .content .form form .formGroup button {  }
 
 .contactSection .content .form .map { flex: 1 0 calc(50% - (var(--column-gap) / 2)); }

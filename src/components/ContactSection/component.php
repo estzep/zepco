@@ -42,7 +42,7 @@ $services = $servicesData['services'] ?? [];
                         </div>
                     </div>
                     <div class="formGroup">
-                        <label for="service">Tipo de servicio legal requerido</label>
+                        <label for="service">Servicio legal</label>
                         <select id="service" name="service">
                             <option value="">Selecciona un servicio</option>
                             <?php foreach ($services as $service): ?>
