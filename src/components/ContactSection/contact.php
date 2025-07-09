@@ -26,9 +26,8 @@ try {
 		$telCelular = $_POST['telCelular'] ?? throw new Exception("telCelular");
         $serviceId = $_POST['service'] ?? throw new Exception("service");
 		$message = $_POST['message'] ?? throw new Exception("message");
-		$contactMethod = $contactMethods[$contactMethod] ?? throw new Exception("contactMethod");
+		$contactMethod = $contactMethods[$_POST['contactMethod']] ?? throw new Exception("contactMethod");
 
-		// Find the service by ID
 		$service = null;
 		foreach ($services as $s) {
 			if ($s['id'] == $serviceId) {
