@@ -1,1 +1,14 @@
-.team { background: blueviolet; }
+.team { padding: 4rem 0; }
+.team .container { }
+.team .content { }
+.team .content h4 { font-size: 2.5rem; font-weight: 400; color: var(--text); margin-bottom: 3rem; line-height: 1.2; font-family: "RobotoSerif", sans-serif; text-align: start; }
+.team .content .teamMembers { --tm-gap: 3rem; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: var(--tm-gap); }
+.team .content .teamMembers .teamMember { flex: 1 0 calc(25% - (var(--tm-gap) * 3 / 4)); }
+.team .content .teamMembers .teamMember .image { width: 100%; height: 100%; }
+.team .content .teamMembers .teamMember .image img { width: 100%; height: 100%; object-fit: cover; }
+.team .content .teamMembers .teamMember .info { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 0.5rem; }
+
+.team .content .teamMembers .teamMember .info h5 { font-size: 1.25rem; font-weight: 500; color: var(--text); margin-bottom: 0.4rem; line-height: 1.4; font-family: "RobotoSerif", sans-serif; }
+.team .content .teamMembers .teamMember .info p.position { font-size: 1rem; font-weight: 500; color: var(--text); margin-bottom: 0.75rem; line-height: 1.4; }
+.team .content .teamMembers .teamMember .info p.description { font-size: 1rem; font-weight: 400; color: var(--text); margin-bottom: 0; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
+.team .content .teamMembers .teamMember .info a { font-size: 1rem; font-weight: 400; color: var(--text); margin-bottom: 0; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
