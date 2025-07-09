@@ -20,7 +20,7 @@ $team = $team['team'] ?? [];
                         <h5><?php echo $member['name']; ?></h5>
                         <p class="position"><?php echo $member['position']; ?></p>
                         <p class="description"><?php echo $member['description']; ?></p>
-                        <a href="/team/<?php echo $member['username']; ?>">Más información</a>
+                        <!-- <a href="/team/<?php echo $member['username']; ?>">Más información</a> -->
                     </div>
                 </div>
                 <?php endforeach; ?>
