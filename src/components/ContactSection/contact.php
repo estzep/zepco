@@ -13,6 +13,12 @@ try {
 
         $servicesData = json_decode(file_get_contents(__DIR__ . '/../../data/services.json'), true);
         $services = $servicesData['services'] ?? [];
+
+        $contactMethods = [
+            "email" => "Email",
+            "telCelular" => "Teléfono celular (Llamada - WhatsApp - Mensaje de Texto)",
+            "telFijo" => "Teléfono fijo"
+        ];
 		
 		$name = $_POST['name'] ?? throw new Exception("name");
 		$email = $_POST['email'] ?? throw new Exception("email");
@@ -20,13 +26,13 @@ try {
 		$telCelular = $_POST['telCelular'] ?? throw new Exception("telCelular");
         $serviceId = $_POST['service'] ?? throw new Exception("service");
 		$message = $_POST['message'] ?? throw new Exception("message");
-		$contactMethod = $_POST['contactMethod'] ?? throw new Exception("contactMethod");
+		$contactMethod = $contactMethods[$contactMethod] ?? throw new Exception("contactMethod");
 
 		// Find the service by ID
 		$service = null;
 		foreach ($services as $s) {
 			if ($s['id'] == $serviceId) {
-				$service = $s;
+				$service = $s['title'];
 				break;
 			}
 		}
@@ -39,30 +45,32 @@ try {
 		}
 
 		$zepcoEmail = "die-tae@hotmail.com";
-		$cmReason = $service['title'];
+		$cmReason = 'ZepCo - ' . $name;
 		$cmMessage = $message;
 		$cmName = $name;
 		$cmTelFijo = $telFijo ?? '';
 		$cmTelCelular = $telCelular ?? '';
 		$cmEmail = $email;
+        $cmService = $service;
 		$cmContactMethod = $contactMethod;
 		$cmMail = str_replace(
 			[
-				'{{service}}',
+				'{{reason}}',
 				'{{message}}',
 				'{{name}}',
 				'{{telFijo}}',
 				'{{telCelular}}',
 				'{{email}}',
-				'{{contactMethod}}'
+                '{{service}}',
+				'{{contactMethod}}',
 			],
-			[$cmReason, $cmMessage, $cmName, $cmTelFijo, $cmTelCelular, $cmEmail, $cmContactMethod],
+			[$cmReason, $cmMessage, $cmName, $cmTelFijo, $cmTelCelular, $cmEmail, $cmService, $cmContactMethod],
 			file_get_contents('../../components/ContactMail.html')
 		);
 
 		$zepcoMail = [
 			'to' => $zepcoEmail,
-			'subject' => $cmReason . ' - ' . $cmName,
+			'subject' => $cmReason,
 			'headers' => implode("\r\n", [
 				'MIME-Version: 1.0',
 				'Content-Type: text/html; charset=UTF-8',
@@ -73,7 +81,7 @@ try {
 		];
 
 		if (mail($zepcoMail['to'], $zepcoMail['subject'], $zepcoMail['message'], $zepcoMail['headers'])) {
-			header("Location: /#contact?mail=sent&mailMsg=Mensaje enviado exitosamente. Gracias por tu interés, pronto nos comunicaremos.");
+			header("Location: /#contact?mail=sent");
 			exit();
 		}
 
