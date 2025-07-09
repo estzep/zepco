@@ -11,7 +11,7 @@ $services = $servicesData['services'] ?? [];
             <h2>Ponte en Contacto</h2>
             <p class="description">Para contactarnos, llena el formulario y nos pondremos en contacto a la brevedad o bien llama al <a href="tel:+525552606244,0">+52 (55) 5260 6244 ext. 0</a>.</p>
             <div class="form">
-                <form name="contactForm" id="contactForm" action="contact.php" onsubmit="return validateForm()" method="POST" validate>
+                <form name="contactForm" id="contactForm" action="/src/components/ContactSection/contact.php" onsubmit="return validateForm()" method="POST" validate>
                     <div class="formGroup">
                         <label for="name">Nombre y apellido</label>
                         <input id="name" name="name" type="text" placeholder="Ingresa tu nombre" required>
