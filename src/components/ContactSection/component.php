@@ -1,15 +1,4 @@
-<!-- Nombre completo:
-Dirección de correo electrónico:
-Número de teléfono fijo:
-Número de teléfono celular:
-Tipo de servicio legal requerido:
-Breve resumen:
-Vía para contactarle: Email:
-Teléfono celular: (Llamada - WhatsApp - Mensaje de Texto)
-Teléfono Fijo: -->
-
 <?php
-// Load services data from JSON file
 $servicesData = json_decode(file_get_contents(__DIR__ . '/../../data/services.json'), true);
 $services = $servicesData['services'] ?? [];
 ?>
@@ -22,14 +11,14 @@ $services = $servicesData['services'] ?? [];
             <h2>Ponte en Contacto</h2>
             <p class="description">Para contactarnos, llena el formulario y nos pondremos en contacto a la brevedad o bien llama al <a href="tel:+525552606244,0">+52 (55) 5260 6244 ext. 0</a>.</p>
             <div class="form">
-                <form action="">
+                <form name="contactForm" id="contactForm" action="contact.php" onsubmit="return validateForm()" method="POST" validate>
                     <div class="formGroup">
                         <label for="name">Nombre y apellido</label>
-                        <input id="name" name="name" type="text" placeholder="Ingresa tu nombre">
+                        <input id="name" name="name" type="text" placeholder="Ingresa tu nombre" required>
                     </div>
                     <div class="formGroup">
                         <label for="email">Correo electrónico</label>
-                        <input id="email" name="email" type="email" placeholder="Ingresa tu correo electrónico">
+                        <input id="email" name="email" type="email" placeholder="Ingresa tu correo electrónico" required>
                     </div>
                     <div class="formGroup formGroup2">
                         <div class="column">
@@ -38,13 +27,13 @@ $services = $servicesData['services'] ?? [];
                         </div>
                         <div class="column">
                             <label for="telCelular">Teléfono celular</label>
-                            <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular">
+                            <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular" required>
                         </div>
                     </div>
                     <div class="formGroup">
                         <label for="service">Servicio legal</label>
-                        <select id="service" name="service">
-                            <option value="0" disabled selected>Selecciona un servicio</option>
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Selecciona un servicio</option>
                             <?php foreach ($services as $service): ?>
                                 <option value="<?php echo htmlspecialchars($service['id']); ?>">
                                     <?php echo htmlspecialchars($service['title']); ?>
@@ -54,12 +43,12 @@ $services = $servicesData['services'] ?? [];
                     </div>
                     <div class="formGroup">
                         <label for="message">Mensaje</label>
-                        <textarea id="message" name="message" placeholder="Ingresa tu mensaje" rows="4"></textarea>
+                        <textarea id="message" name="message" placeholder="Ingresa tu mensaje" rows="4" required></textarea>
                     </div>
                     <div class="formGroup">
                         <label for="contactMethod">Vía para contactarle</label>
-                        <select id="contactMethod" name="contactMethod">
-                            <option value="0" disabled selected>Selecciona una vía</option>
+                        <select id="contactMethod" name="contactMethod" required>
+                            <option value="" disabled selected>Selecciona una vía</option>
                             <option value="email">Email</option>
                             <option value="telCelular">Teléfono celular (Llamada - WhatsApp - Mensaje de Texto)</option>
                             <option value="telFijo">Teléfono fijo</option>
