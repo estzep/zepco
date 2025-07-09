@@ -1,6 +1,21 @@
 <?php
 $servicesData = json_decode(file_get_contents(__DIR__ . '/../../data/services.json'), true);
 $services = $servicesData['services'] ?? [];
+
+// Get URL parameters
+$mailStatus = $_GET['mail'] ?? '';
+$mailMsg = $_GET['mailMsg'] ?? '';
+
+// Get form data from URL parameters for auto-fill on error
+$formData = [
+    'name' => $_GET['name'] ?? '',
+    'email' => $_GET['email'] ?? '',
+    'telFijo' => $_GET['telFijo'] ?? '',
+    'telCelular' => $_GET['telCelular'] ?? '',
+    'service' => $_GET['service'] ?? '',
+    'message' => $_GET['message'] ?? '',
+    'contactMethod' => $_GET['contactMethod'] ?? ''
+];
 ?>
 
 <link rel="stylesheet" href="/src/components/ContactSection/styles.css">
@@ -10,32 +25,44 @@ $services = $servicesData['services'] ?? [];
         <div class="content">
             <h2>Ponte en Contacto</h2>
             <p class="description">Para contactarnos, llena el formulario y nos pondremos en contacto a la brevedad o bien llama al <a href="tel:+525552606244,0">+52 (55) 5260 6244 ext. 0</a>.</p>
+            
+            <!-- Alert Messages -->
+            <?php if ($mailStatus === 'sent'): ?>
+                <div class="alert alert-success" role="alert">
+                    <strong>¡Mensaje enviado exitosamente!</strong> Gracias por tu interés, pronto nos comunicaremos contigo.
+                </div>
+            <?php elseif ($mailStatus === 'error'): ?>
+                <div class="alert alert-danger" role="alert">
+                    <strong>Error al enviar el mensaje.</strong> Por favor, intenta nuevamente o contacta directamente al teléfono.
+                </div>
+            <?php endif; ?>
+            
             <div class="form">
                 <form name="contactForm" id="contactForm" action="/src/components/ContactSection/contact.php" onsubmit="return validateForm()" method="POST" validate>
                     <div class="formGroup">
                         <label for="name">Nombre y apellido</label>
-                        <input id="name" name="name" type="text" placeholder="Ingresa tu nombre" required>
+                        <input id="name" name="name" type="text" placeholder="Ingresa tu nombre" required value="<?php echo htmlspecialchars($formData['name']); ?>">
                     </div>
                     <div class="formGroup">
                         <label for="email">Correo electrónico</label>
-                        <input id="email" name="email" type="email" placeholder="Ingresa tu correo electrónico" required>
+                        <input id="email" name="email" type="email" placeholder="Ingresa tu correo electrónico" required value="<?php echo htmlspecialchars($formData['email']); ?>">
                     </div>
                     <div class="formGroup formGroup2">
                         <div class="column">
                             <label for="telFijo">Teléfono fijo</label>
-                            <input id="telFijo" name="telFijo" type="tel" placeholder="Ingresa tu teléfono fijo">
+                            <input id="telFijo" name="telFijo" type="tel" placeholder="Ingresa tu teléfono fijo" value="<?php echo htmlspecialchars($formData['telFijo']); ?>">
                         </div>
                         <div class="column">
                             <label for="telCelular">Teléfono celular</label>
-                            <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular" required>
+                            <input id="telCelular" name="telCelular" type="tel" placeholder="Ingresa tu teléfono celular" required value="<?php echo htmlspecialchars($formData['telCelular']); ?>">
                         </div>
                     </div>
                     <div class="formGroup">
                         <label for="service">Servicio legal</label>
                         <select id="service" name="service" required>
-                            <option value="" disabled selected>Selecciona un servicio</option>
+                            <option value="" disabled <?php echo $formData['service'] === '' ? 'selected' : ''; ?>>Selecciona un servicio</option>
                             <?php foreach ($services as $service): ?>
-                                <option value="<?php echo htmlspecialchars($service['id']); ?>">
+                                <option value="<?php echo htmlspecialchars($service['id']); ?>" <?php echo $formData['service'] == $service['id'] ? 'selected' : ''; ?>>
                                     <?php echo htmlspecialchars($service['title']); ?>
                                 </option>
                             <?php endforeach; ?>
@@ -43,15 +70,15 @@ $services = $servicesData['services'] ?? [];
                     </div>
                     <div class="formGroup">
                         <label for="message">Mensaje</label>
-                        <textarea id="message" name="message" placeholder="Ingresa tu mensaje" rows="4" required></textarea>
+                        <textarea id="message" name="message" placeholder="Ingresa tu mensaje" rows="4" required><?php echo htmlspecialchars($formData['message']); ?></textarea>
                     </div>
                     <div class="formGroup">
                         <label for="contactMethod">Vía para contactarle</label>
                         <select id="contactMethod" name="contactMethod" required>
-                            <option value="" disabled selected>Selecciona una vía</option>
-                            <option value="email">Email</option>
-                            <option value="telCelular">Teléfono celular (Llamada - WhatsApp - Mensaje de Texto)</option>
-                            <option value="telFijo">Teléfono fijo</option>
+                            <option value="" disabled <?php echo $formData['contactMethod'] === '' ? 'selected' : ''; ?>>Selecciona una vía</option>
+                            <option value="email" <?php echo $formData['contactMethod'] === 'email' ? 'selected' : ''; ?>>Email</option>
+                            <option value="telCelular" <?php echo $formData['contactMethod'] === 'telCelular' ? 'selected' : ''; ?>>Teléfono celular (Llamada - WhatsApp - Mensaje de Texto)</option>
+                            <option value="telFijo" <?php echo $formData['contactMethod'] === 'telFijo' ? 'selected' : ''; ?>>Teléfono fijo</option>
                         </select>
                     </div>
                     <div class="formGroup">
@@ -83,3 +110,5 @@ $services = $servicesData['services'] ?? [];
         </div>
     </div>
 </section>
+
+<script src="/src/components/ContactSection/scripts.js"></script>
