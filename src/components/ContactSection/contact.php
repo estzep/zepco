@@ -26,7 +26,8 @@ try {
 		$telCelular = $_POST['telCelular'] ?? throw new Exception("telCelular");
         $serviceId = $_POST['service'] ?? throw new Exception("service");
 		$message = $_POST['message'] ?? throw new Exception("message");
-		$contactMethod = $contactMethods[$_POST['contactMethod']] ?? throw new Exception("contactMethod");
+		$contactMethodId = $_POST['contactMethod'] ?? throw new Exception("contactMethod");
+		$contactMethod = $contactMethods[$contactMethodId] ?? throw new Exception("contactMethod");
 
 		$service = null;
 		foreach ($services as $s) {
@@ -61,7 +62,7 @@ try {
 				'{{telCelular}}',
 				'{{email}}',
                 '{{service}}',
-				'{{contactMethod}}',
+				'{{contactMethod}}'
 			],
 			[$cmReason, $cmMessage, $cmName, $cmTelFijo, $cmTelCelular, $cmEmail, $cmService, $cmContactMethod],
 			file_get_contents('../../components/ContactMail.html')
