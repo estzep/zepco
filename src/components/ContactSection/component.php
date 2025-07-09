@@ -2,11 +2,8 @@
 $servicesData = json_decode(file_get_contents(__DIR__ . '/../../data/services.json'), true);
 $services = $servicesData['services'] ?? [];
 
-// Get URL parameters
 $mailStatus = $_GET['mail'] ?? '';
-$mailMsg = $_GET['mailMsg'] ?? '';
 
-// Get form data from URL parameters for auto-fill on error
 $formData = [
     'name' => $_GET['name'] ?? '',
     'email' => $_GET['email'] ?? '',
@@ -26,7 +23,6 @@ $formData = [
             <h2>Ponte en Contacto</h2>
             <p class="description">Para contactarnos, llena el formulario y nos pondremos en contacto a la brevedad o bien llama al <a href="tel:+525552606244,0">+52 (55) 5260 6244 ext. 0</a>.</p>
             
-            <!-- Alert Messages -->
             <?php if ($mailStatus === 'sent'): ?>
                 <div class="alert alert-success" role="alert">
                     <strong>¡Mensaje enviado exitosamente!</strong> Gracias por tu interés, pronto nos comunicaremos contigo.
