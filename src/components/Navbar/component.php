@@ -19,8 +19,8 @@
                     <li class="link-item" data-target="services">
                         <a href="/#services">Servicios Jurídicos</a>
                     </li>
-                    <li class="link-item">
-                        <a href="/team">Equipo</a>
+                    <li class="link-item" data-target="team">
+                        <a href="/team/">Equipo</a>
                     </li>
                     <li class="link-item" data-target="contact">
                         <a href="/#contact">Contacto</a>

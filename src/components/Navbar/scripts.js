@@ -4,6 +4,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const navItems = navbar.getElementsByClassName('link-item');
 
     function setActiveSection() {
+        const path = window.location.pathname;
+        if (path === '/team/') {
+            Array.from(navItems).forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('data-target') === 'team') {
+                    item.classList.add('active');
+                }
+            });
+            return;
+        }
+        
         const scrollPosition = window.scrollY + navbar.offsetHeight;
 
         Array.from(sections).forEach(section => {
