@@ -12,7 +12,7 @@ $team = $team['team'] ?? [];
             <h4>Socios</h4>
             <div class="teamMembers">
                 <?php foreach ($team as $member): ?>
-                <div class="teamMember" style="order: <?php echo $member['id']; ?>;">
+                <div class="teamMember" style="order: <?php echo $member['order']; ?>;">
                     <div class="image">
                         <img src="<?php echo $member['image']; ?>" alt="<?php echo $member['name']; ?>">
                     </div>

@@ -2,7 +2,9 @@
     "team": [
         {
             "id": 1,
+            "order": 1,
             "username": "enriquezepeda",
+            "email": "enriquezepeda@zepco.com.mx",
             "name": "Enrique Esteban Zepeda Vázquez",
             "position": "Socio Fundador",
             "description": "Áreas de práctica: Comercio internacional y solución de controversios",
@@ -10,14 +12,37 @@
         },
         {
             "id": 2,
+            "order": 2,
             "username": "luisxavier",
+            "email": "luisxavier@zepco.com.mx",
             "name": "Luis Xavier Zepeda Vázquez",
             "position": "Socio Fundador",
             "description": "Áreas de práctica: Comercio internacional y solución de controversios",
             "image": "/src/assets/img/team/luisxavier.png"
         },
         {
-            "id": 1,
+            "id": 3,
+            "order": 3,
+            "username": "enriquezepeda",
+            "email": "enriquezepeda@zepco.com.mx",
+            "name": "Enrique Zepeda Trujillo",
+            "position": "Socio Fundador",
+            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
+            "image": "/src/assets/img/team/enriquezepeda.png"
+        },
+        {
+            "id": 4,
+            "order": 4,
+            "username": "luisxavier",
+            "email": "luisxavier@zepco.com.mx",
+            "name": "Luis Xavier Zepeda Vázquez",
+            "position": "Socio Fundador",
+            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
+            "image": "/src/assets/img/team/luisxavier.png"
+        },
+        {
+            "id": 5,
+            "order": 5,
             "username": "enriquezepeda",
             "name": "Enrique Zepeda Trujillo",
             "position": "Socio Fundador",
@@ -25,7 +50,8 @@
             "image": "/src/assets/img/team/enriquezepeda.png"
         },
         {
-            "id": 2,
+            "id": 6,
+            "order": 6,
             "username": "luisxavier",
             "name": "Luis Xavier Zepeda Vázquez",
             "position": "Socio Fundador",
@@ -33,7 +59,8 @@
             "image": "/src/assets/img/team/luisxavier.png"
         },
         {
-            "id": 1,
+            "id": 7,
+            "order": 7,
             "username": "enriquezepeda",
             "name": "Enrique Zepeda Trujillo",
             "position": "Socio Fundador",
@@ -41,23 +68,8 @@
             "image": "/src/assets/img/team/enriquezepeda.png"
         },
         {
-            "id": 2,
-            "username": "luisxavier",
-            "name": "Luis Xavier Zepeda Vázquez",
-            "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/luisxavier.png"
-        },
-        {
-            "id": 1,
-            "username": "enriquezepeda",
-            "name": "Enrique Zepeda Trujillo",
-            "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/enriquezepeda.png"
-        },
-        {
-            "id": 2,
+            "id": 8,
+            "order": 8,
             "username": "luisxavier",
             "name": "Luis Xavier Zepeda Vázquez",
             "position": "Socio Fundador",
