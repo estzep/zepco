@@ -3,34 +3,37 @@ document.addEventListener('DOMContentLoaded', function() {
     const sections = document.getElementsByTagName('section');
     const navItems = navbar.getElementsByClassName('link-item');
 
-    function setActiveSection() {
+    function setActiveItem() {
         const path = window.location.pathname;
-        if (path === '/team/') {
-            Array.from(navItems).forEach(item => {
-                item.classList.remove('active');
-                if (item.getAttribute('data-target') === 'team') {
-                    item.classList.add('active');
-                }
-            });
-            return;
-        }
-        
-        const scrollPosition = window.scrollY + navbar.offsetHeight;
-
-        Array.from(sections).forEach(section => {
-            const sectionTop = section.offsetTop;
-            const sectionHeight = section.offsetHeight;
-            const sectionId = section.getAttribute('id');
-
-            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        switch (path) {
+            case '/team/':
                 Array.from(navItems).forEach(item => {
                     item.classList.remove('active');
-                    if (item.getAttribute('data-target') === sectionId) {
+                    if (item.getAttribute('data-target') === 'team') {
                         item.classList.add('active');
                     }
                 });
-            }
-        });
+                break;
+                
+            default:
+                const scrollPosition = window.scrollY + navbar.offsetHeight;
+
+                Array.from(sections).forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    const sectionId = section.getAttribute('id');
+
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        Array.from(navItems).forEach(item => {
+                            item.classList.remove('active');
+                            if (item.getAttribute('data-target') === sectionId) {
+                                item.classList.add('active');
+                            }
+                        });
+                    }
+                });
+                break;
+        }
     }
 
     var navbarHeight = navbar.offsetHeight;
@@ -40,10 +43,10 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             navbar.classList.remove('scrolled');
         }
-        setActiveSection();
+        setActiveItem();
     });
 
-    setActiveSection();
+    setActiveItem();
 });
 
 function openNavbar() {

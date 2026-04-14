@@ -10,7 +10,7 @@
             </div>
             <div class="links">
                 <ul>
-                    <li class="link-item active" data-target="home">
+                    <li class="link-item" data-target="home">
                         <a href="/#home">Inicio</a>
                     </li>
                     <li class="link-item" data-target="about">
