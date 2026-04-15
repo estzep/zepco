@@ -12,7 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 Hello, world! This is a toast message.
             </div>
         </div>`;
-        return toastHtml;
+        const template = document.createElement("template");
+        template.innerHTML = toastHtml.trim();
+        return template.content.firstElementChild;
     }
     
     function contact() {
@@ -29,9 +31,10 @@ document.addEventListener("DOMContentLoaded", function() {
             document.body.appendChild(toast);
             return;
         } else {
+            console.log("no mail status");
             return;
         }
     }
-    
+
     contact();
 });
