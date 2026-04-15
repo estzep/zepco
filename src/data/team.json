@@ -2,79 +2,43 @@
     "team": [
         {
             "id": 1,
-            "order": 1,
-            "username": "enriquezepeda",
-            "email": "enriquezepeda@zepco.com.mx",
+            "order": 2,
+            "username": "enrique",
+            "email": "enrique@zepco.com.mx",
             "name": "Enrique Esteban Zepeda Vázquez",
             "position": "Socio Fundador",
             "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/enriquezepeda.png"
+            "image": "/src/assets/img/team/enrique.jpeg"
         },
         {
             "id": 2,
-            "order": 2,
-            "username": "luisxavier",
-            "email": "luisxavier@zepco.com.mx",
+            "order": 1,
+            "username": "luis",
+            "email": "luis@zepco.com.mx",
             "name": "Luis Xavier Zepeda Vázquez",
             "position": "Socio Fundador",
             "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/luisxavier.png"
+            "image": "/src/assets/img/team/luis.jpeg"
         },
         {
             "id": 3,
             "order": 3,
-            "username": "enriquezepeda",
-            "email": "enriquezepeda@zepco.com.mx",
-            "name": "Enrique Zepeda Trujillo",
-            "position": "Socio Fundador",
+            "username": "vladimir",
+            "email": "vladitor66@gmail.com",
+            "name": "Vladimir Torres Bueno",
+            "position": "Socio",
             "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/enriquezepeda.png"
+            "image": "/src/assets/img/team/vladimir.jgp"
         },
         {
             "id": 4,
             "order": 4,
-            "username": "luisxavier",
-            "email": "luisxavier@zepco.com.mx",
-            "name": "Luis Xavier Zepeda Vázquez",
-            "position": "Socio Fundador",
+            "username": "haide",
+            "email": "arteaga1907@hotmail.com",
+            "name": "Haidé Arteaga Prado",
+            "position": "Abogada",
             "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/luisxavier.png"
-        },
-        {
-            "id": 5,
-            "order": 5,
-            "username": "enriquezepeda",
-            "name": "Enrique Zepeda Trujillo",
-            "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/enriquezepeda.png"
-        },
-        {
-            "id": 6,
-            "order": 6,
-            "username": "luisxavier",
-            "name": "Luis Xavier Zepeda Vázquez",
-            "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/luisxavier.png"
-        },
-        {
-            "id": 7,
-            "order": 7,
-            "username": "enriquezepeda",
-            "name": "Enrique Zepeda Trujillo",
-            "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/enriquezepeda.png"
-        },
-        {
-            "id": 8,
-            "order": 8,
-            "username": "luisxavier",
-            "name": "Luis Xavier Zepeda Vázquez",
-            "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
-            "image": "/src/assets/img/team/luisxavier.png"
+            "image": "/src/assets/img/team/placeholder.jpg"
         }
     ]
 }
