@@ -90,7 +90,7 @@ try {
 		throw new Exception("error");
 	}
 } catch (Exception $e) {
-	header("Location: /#contact?" . $initParams . "&mail=error");
+	header("Location: /?" . $initParams . "&mail=error");
 	exit();
 }
 ?>
