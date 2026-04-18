@@ -81,7 +81,7 @@ try {
 		];
 
 		if (mail($zepcoMail['to'], $zepcoMail['subject'], $zepcoMail['message'], $zepcoMail['headers'])) {
-			header("Location: /#contact?mail=sent");
+			header("Location: /?mail=sent");
 			exit();
 		}
 
