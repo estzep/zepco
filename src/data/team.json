@@ -7,7 +7,7 @@
             "email": "enrique@zepco.com.mx",
             "name": "Enrique Esteban Zepeda Vázquez",
             "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
+            "description": "",
             "image": "/src/assets/img/team/enrique.jpeg"
         },
         {
@@ -17,7 +17,7 @@
             "email": "luis@zepco.com.mx",
             "name": "Luis Xavier Zepeda Vázquez",
             "position": "Socio Fundador",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
+            "description": "",
             "image": "/src/assets/img/team/luis.jpeg"
         },
         {
@@ -27,7 +27,7 @@
             "email": "vladitor66@gmail.com",
             "name": "Vladimir Torres Bueno",
             "position": "Socio",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
+            "description": "",
             "image": "/src/assets/img/team/vladimir.jpg"
         },
         {
@@ -37,7 +37,7 @@
             "email": "arteaga1907@hotmail.com",
             "name": "Haidé Arteaga Prado",
             "position": "Abogada",
-            "description": "Áreas de práctica: Comercio internacional y solución de controversios",
+            "description": "",
             "image": "/src/assets/img/team/placeholder.jpg"
         }
     ]

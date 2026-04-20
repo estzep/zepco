@@ -3,12 +3,12 @@
         "/": {
             "title": "ZepCo - Asesoría Legal",
             "description": "ZepCo es una firma de abogados especializada en asesoría legal para empresas y particulares. Ofrecemos servicios de consultoría, representación legal y resolución de controversias.",
-            "robots": "noindex, nofollow"
+            "robots": "index, follow"
         },
         "/team/": {
             "title": "ZepCo - Equipo",
             "description": "Conoce a nuestro equipo de abogados especializados en asesoría legal para empresas y particulares. Ofrecemos servicios de consultoría, representación legal y resolución de controversias.",
-            "robots": "noindex, nofollow"
+            "robots": "index, nofollow"
         }
     }
 }
