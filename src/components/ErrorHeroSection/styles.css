@@ -2,6 +2,6 @@
 .errorHeroSection img { position: absolute; display: block; height: 100%; width: 100%; object-fit: cover; z-index: 1; }
 .errorHeroSection .container { position: relative; width: 100%; height: 100%; z-index: 2; }
 .errorHeroSection .content { position: relative; z-index: 3; padding: calc(4rem + var(--navbar-height)) 0 6rem 0; text-align: center; }
-.errorHeroSection .content h1 { font-size: 6rem; font-weight: 400; color: var(--light-text); margin-bottom: 1rem; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
-.errorHeroSection .content h2 { font-size: 2.5rem; font-weight: 400; color: var(--light-text); margin-bottom: 2rem; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
-.errorHeroSection .content p { font-size: 1.25rem; font-weight: 400; color: var(--light-text); margin-bottom: 1.5rem; line-height: 1.4; }
+.errorHeroSection .content h1 { font-size: 6rem; font-weight: 400; color: var(--light-text); margin-bottom: 0; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
+.errorHeroSection .content h2 { font-size: 2.5rem; font-weight: 400; color: var(--light-text); margin-bottom: 1.5rem; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
+.errorHeroSection .content p { font-size: 1.25rem; font-weight: 400; color: var(--light-text); margin-bottom: 1rem; line-height: 1.4; }
