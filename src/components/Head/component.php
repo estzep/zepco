@@ -8,7 +8,6 @@ $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $title = $metadata[$page]['title'] ?? 'ZepCo';
 $description = $metadata[$page]['description'] ?? '';
 $robots = $metadata[$page]['robots'] ?? 'noindex, nofollow';
-
 ?>
 
 <head>

@@ -14,7 +14,7 @@
                         <li><a href="/#home">Inicio</a></li>
                         <li><a href="/#about">Nosotros</a></li>
                         <li><a href="/#services">Servicios Jurídicos</a></li>
-                        <!-- <li><a href="/team">Equipo</a></li> -->
+                        <li><a href="/team">Equipo</a></li>
                         <li><a href="/#contact">Contacto</a></li>
                     </ul>
                 </div>
