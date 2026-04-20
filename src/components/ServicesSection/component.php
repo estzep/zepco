@@ -22,7 +22,7 @@
                             <p><?php echo $service['description']; ?></p>
                         </div>
                         <div class="link">
-                            <a href="/servicios/<?php echo $service['name']; ?>">Más información</a>
+                            <!-- <a href="/servicios/<?php echo $service['name']; ?>">Más información</a> -->
                         </div>
                     </div>
                 </div>
