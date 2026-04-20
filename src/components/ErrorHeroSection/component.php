@@ -11,8 +11,7 @@
                 <br>
                 eliminada o no esté disponible temporalmente.
             </p>
-            <br>
-            <a href="/" class="btn btnType1">Volver al inicio</a>
+            <a href="/" class="btn btnType2">Volver al inicio</a>
         </div>
     </div>
 </section>
