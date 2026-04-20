@@ -4,14 +4,14 @@
     <img src="/src/assets/img/heroSection2.png" alt="Hero Section 2">
     <div class="container">
         <div class="content">
-            <h1>
-                404
+            <h1>404</h1>
+            <h2>Página no encontrada</h2>
+            <p>
+                Es posible que la página que busca haya sido
                 <br>
-                Página no encontrada
-            </h1>
-            <p class="subtitle">
-                Es posible que la página que busca haya sido eliminada o no esté disponible temporalmente.
+                eliminada o no esté disponible temporalmente.
             </p>
+            <br>
             <a href="/" class="btn btnType1">Volver al inicio</a>
         </div>
     </div>
