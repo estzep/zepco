@@ -26,12 +26,12 @@ $formData = [
             <?php if ($mailStatus === 'sent'): ?>
                 <div id="mailAlert" class="alert alert-success" role="alert">
                     <strong>¡Mensaje enviado exitosamente!</strong> Gracias por tu interés, pronto nos comunicaremos contigo.
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             <?php elseif ($mailStatus === 'error'): ?>
                 <div id="mailAlert" class="alert alert-danger" role="alert">
                     <strong>Error al enviar el mensaje.</strong> Por favor, intenta nuevamente o contacta directamente al teléfono.
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>'
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
             <?php endif; ?>
             
