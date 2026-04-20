@@ -1,14 +1,27 @@
+<?php
+$metadataJson = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/src/data/metadata.json');
+$metadataData = json_decode($metadataJson, true);
+$metadata = $metadataData['metadata'];
+
+$page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+$title = $metadata[$page]['title'] ?? 'ZepCo';
+$description = $metadata[$page]['description'] ?? '';
+$robots = $metadata[$page]['robots'] ?? 'noindex, nofollow';
+
+?>
+
 <head>
     <!-- General -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="<?php echo $robots; ?>">
     <meta name="author" content="Qarta Online">
-    <title>ZepCo</title>
-    <meta name="description" content="Zepco">
-    <link rel="canonical" href="https://zepco.mx/">
-    <meta name="url" content="https://zepco.mx/">
+    <title><?php echo $title; ?></title>
+    <meta name="description" content="<?php echo $description; ?>">
+    <link rel="canonical" href="https://zepco.mx<?php echo $page; ?>">
+    <meta name="url" content="https://zepco.mx<?php echo $page; ?>">
     
     <!-- Favicon and icons -->
     <link rel="icon" href="./favicon.ico">
