@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert.classList.add('show');
                 setTimeout(() => {
                     alert.classList.remove('show');
-                }, 6500);
+                }, 12000);
             }
         }, 500);
     }
