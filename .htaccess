@@ -6,6 +6,7 @@ RewriteRule ^(.*)$ /$1/ [L,R=301]
 
 RewriteCond %{REQUEST_URI} !^/src/
 RewriteCond %{REQUEST_URI} !^/files/
+RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteCond %{REQUEST_URI} !^/index\.php$
 RewriteRule ^(.*)$ /index.php [L]
