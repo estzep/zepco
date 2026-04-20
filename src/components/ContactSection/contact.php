@@ -44,7 +44,7 @@ try {
 			throw new Exception("email");
 		}
 
-		$zepcoEmail = "zepedaabogados@zepco.com.mx";
+		$zepcoEmail = "die-tae@hotmail.com";
 		$cmReason = 'ZepCo - ' . $name;
 		$cmMessage = $message;
 		$cmName = $name;
