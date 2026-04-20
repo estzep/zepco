@@ -5,7 +5,12 @@
         <div class="content">
             <div class="about">
                 <a href="/#home"><img src="/src/assets/img/full-zepco-logo.svg" alt="Logo de Zepco"></a>
-                <p>Somos un despacho de abogados en Ciudad de México con más de 48 años de experiencia en temas de litigio.</p>
+                <p>
+                    <?php
+                        $years = date("Y") - 1970;
+                        echo "Somos un despacho de abogados en Ciudad de México con más de $years años de experiencia en temas de litigio.";
+                    ?>
+                </p>
             </div>
             <div class="link-columns">
                 <div class="link-column">
@@ -14,7 +19,7 @@
                         <li><a href="/#home">Inicio</a></li>
                         <li><a href="/#about">Nosotros</a></li>
                         <li><a href="/#services">Servicios Jurídicos</a></li>
-                        <li><a href="/team">Equipo</a></li>
+                        <li><a href="/team/">Equipo</a></li>
                         <li><a href="/#contact">Contacto</a></li>
                     </ul>
                 </div>

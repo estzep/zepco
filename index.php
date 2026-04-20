@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
     <?php require("src/components/Head/component.php");?>
-	<body>
+    <body>
         <?php require("app.php");?>
-	</body>
+    </body>
 </html>
