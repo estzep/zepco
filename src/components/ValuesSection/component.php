@@ -5,21 +5,21 @@
                 'id' => 'team',
                 'icon' => '/src/assets/icons/team.svg',
                 'alt' => 'Team',
-                'title' => 'Equipo<br>Especializado',
+                'title' => 'Equipo Especializado',
                 'description' => 'Abogados altamente capacitados lo que nos permite ofrecer soluciones jurídicas integrales, precisas y estratégicas.'
             ],
             [
                 'id' => 'experience',
                 'icon' => '/src/assets/icons/experience.svg',
                 'alt' => 'Experience',
-                'title' => 'Experiencia y<br>Trayectoria',
+                'title' => 'Experiencia y Trayectoria',
                 'description' => 'Con casi 50 años de práctica jurídica, hemos acompañado a empresas, inversionistas y particulares en sus operaciones.'
             ],
             [
                 'id' => 'commitment',
                 'icon' => '/src/assets/icons/commitment.svg',
                 'alt' => 'Commitment',
-                'title' => 'Compromiso y <br>Responsabilidad',
+                'title' => 'Compromiso y Responsabilidad',
                 'description' => 'Atendemos cada caso con atención personalizada. Nos involucramos a fondo, y proponemos soluciones profesionales.'
             ]
         ]
