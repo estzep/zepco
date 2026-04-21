@@ -14,15 +14,11 @@
     .valuesSection .content { padding: 5rem 0; }
     .valuesSection .content h2 { font-size: 2.125rem; }
     .valuesSection .content .subtitle { font-size: 1.1rem; }
-    .valuesSection .content .values {
-        flex-wrap: wrap;
-        padding-top: 3rem;
-        gap: 2.5rem;
-    }
-    .valuesSection .content .values .value {
-        flex: 1 0 100%;
-        width: 100%;
-    }
+    .valuesSection .content .values { flex-wrap: wrap; padding-top: 3rem; }
+    .valuesSection .content .values .value { flex: 1 0 100%; width: 100%; display: flex; }
+    .valuesSection .content .values .value .icon { flex: 0 0 3rem; width: 3rem; height: 3rem; display: inline-block; }
+    .valuesSection .content .values .value .title { flex: 1 0 auto; width: auto; }
+    .valuesSection .content .values .value .description { flex: 1 0 100%; width: 100%; }
 }
 
 @media (max-width: 767.98px) {
