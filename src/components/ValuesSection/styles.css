@@ -28,6 +28,7 @@
 }
 
 @media (max-width: 575.98px) {
+    .valuesSection .content .values .value .icon { flex: 0 0 1.8rem; width: 1.8rem; height: 1.8rem; }
     .valuesSection .content .values .value .title { font-size: 1rem; }
     .valuesSection .content .values .value .description { font-size: 0.9rem; }
 }
