@@ -26,3 +26,8 @@
     .valuesSection .content h2 { font-size: 1.875rem; }
     .valuesSection .content .values .value .title { font-size: 1.35rem; }
 }
+
+@media (max-width: 575.98px) {
+    .valuesSection .content .values .value .title { font-size: 1rem; }
+    .valuesSection .content .values .value .description { font-size: 0.9rem; }
+}
