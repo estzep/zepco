@@ -1,3 +1,7 @@
+@media (min-width: 992px) {
+    .valuesSection .content .values .value .title { max-width: 260px; }
+}
+
 .valuesSection { background: linear-gradient(rgba(var(--dark-blue-rgb), 0.95), rgba(var(--dark-blue-rgb), 0.95)), url('/src/assets/img/values-section-bg.png') no-repeat center center; background-size: cover; }
 .valuesSection .container {  }
 .valuesSection .content { padding: 7.5rem 0; }
