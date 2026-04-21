@@ -4,3 +4,21 @@
 .heroSection .content { position: relative; z-index: 3; padding: calc(8rem + var(--navbar-height)) 0 12rem 0; }
 .heroSection .content h1 { font-size: 3.5rem; font-weight: 400; color: var(--light-text); margin-bottom: 1.5rem; line-height: 1.2; font-family: "RobotoSerif", sans-serif; max-width: 623px; }
 .heroSection .content p { font-size: 1.25rem; font-weight: 400; color: var(--light-text); margin-bottom: 0; line-height: 1.4; max-width: 860px; }
+
+@media (max-width: 991.98px) {
+    .heroSection .container { min-height: 60vh; }
+    .heroSection .content { padding: calc(5rem + var(--navbar-height)) 0 8rem 0; }
+    .heroSection .content h1 { font-size: 2.75rem; max-width: none; }
+}
+
+@media (max-width: 767.98px) {
+    .heroSection .container { min-height: 55vh; }
+    .heroSection .content { padding: calc(4rem + var(--navbar-height)) 0 5rem 0; }
+    .heroSection .content h1 { font-size: 2.25rem; }
+    .heroSection .content p { font-size: 1.1rem; }
+}
+
+@media (max-width: 575.98px) {
+    .heroSection .content h1 { font-size: 1.875rem; }
+    .heroSection .content p { font-size: 1rem; }
+}
