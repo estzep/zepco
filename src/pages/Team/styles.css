@@ -25,6 +25,6 @@
     .team .content h4 { font-size: 1.75rem; }
     .team .content .teamMembers .teamMember { flex: 1 0 100%; }
     .team .content .teamMembers .teamMember .image { flex: 1 0 auto; height: auto; }
-    .team .content .teamMembers .teamMember .image img { min-height: 430px; }
-    .team .content .teamMembers .teamMember .info { flex: 1 0 15%; height: 15%; }
+    .team .content .teamMembers .teamMember .image img { min-height: 382px; }
+    .team .content .teamMembers .teamMember .info { flex: 1 0 30%; height: 30%; }
 }
