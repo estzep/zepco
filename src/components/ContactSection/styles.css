@@ -56,5 +56,4 @@
 
 @media (max-width: 575.98px) {
     .contactSection .content .form form .formGroup2 { flex-direction: column; }
-    .contactSection .content .form form .formGroup2 .column { flex: 1 0 100%; }
 }
