@@ -5,10 +5,10 @@
         <div class="content">
             <div class="text">
                 <h2>
-                    Bienvenido a Zepeda &amp; Torres
+                    Bienvenido a Zepeda & Torres
                 </h2>
                 <p>
-                    Los antecedentes de Zepeda &amp; Torres se remontan a 1975, cuando se formó el Bufete Zepeda Trujillo que ahora cuenta con la denominación Zepeda &amp; Torres, Abogados, para proporcionar servicios profesionales de abogacía, tanto en su aspecto de asesoría en materia de planeación legal, negociaciones, contrataciones e investigaciones, como de litigio.
+                    Los antecedentes de Zepeda & Torres se remontan a 1975, cuando se formó el Bufete Zepeda Trujillo que ahora cuenta con la denominación Zepeda & Torres, Abogados, para proporcionar servicios profesionales de abogacía, tanto en su aspecto de asesoría en materia de planeación legal, negociaciones, contrataciones e investigaciones, como de litigio.
                     <br>
                     <br>
                     Nuestro equipo cuenta con amplia experiencia en la planeación legal de proyectos inmobiliarios y corporativos, tanto a nivel nacional como internacional, incluyendo jurisdicciones de Common Law.
@@ -19,7 +19,7 @@
                 <a href="/#contact" class="btn btnType1">Ponte en contacto</a>
             </div>
             <div class="image">
-                <img src="/src/assets/img/about-section-image.png" alt="Zepeda &amp; Torres, Abogados">
+                <img src="/src/assets/img/about-section-image.png" alt="Zepeda & Torres, Abogados">
             </div>
         </div>
     </div>

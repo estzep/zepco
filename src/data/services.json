@@ -40,7 +40,7 @@
             "name": "otros",
             "title": "Otros",
             "description": "Otro asunto o consulta no listada en los servicios anteriores.",
-            "showOnHomepage": false
+            "show": false
         }
     ]
 }

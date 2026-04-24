@@ -5,7 +5,7 @@
         <div class="content">
             <div class="logo">
                 <a href="/">
-                    <img src="/src/assets/img/zepco-logo.svg" alt="Zepeda &amp; Torres, Abogados">
+                    <img src="/src/assets/img/zepco-logo.svg" alt="Zepeda & Torres, Abogados">
                 </a>
             </div>
             <div class="links">
