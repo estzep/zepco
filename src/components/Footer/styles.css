@@ -14,3 +14,23 @@
 .footer .container .content .footer-bottom {padding-top: 12.5rem; flex: 1 0 100%; }
 .footer .container .content .footer-bottom p { font-size: 1rem; font-weight: 400; color: var(--light-text); margin-bottom: 0.75rem; line-height: 1.4; text-align: center; }
 .footer .container .content .footer-bottom p a { text-decoration: none; color: var(--light-text); }
+
+@media (max-width: 991.98px) {
+    .footer .container .content { padding: 5rem 0 1.75rem 0; gap: 3rem; }
+    .footer .container .content .about { flex: 1 0 100%; }
+    .footer .container .content .link-columns { flex: 1 0 100%; gap: 2rem; }
+    .footer .container .content .link-columns .link-column { flex: 1 0 calc(50% - 1rem); }
+}
+
+@media (max-width: 767.98px) {
+    .footer .container .content .link-columns { flex-direction: column; }
+    .footer .container .content .link-columns .link-column { flex: 1 0 100%; }
+    .footer .container .content .link-columns .link-column ul li a { overflow-wrap: anywhere; }
+    .footer .container .content .footer-bottom { padding-top: 4rem; }
+}
+
+@media (max-width: 575.98px) {
+    .footer .container .content { padding: 3.5rem 0 1.5rem 0; gap: 2.5rem; }
+    .footer .container .content .footer-bottom { padding-top: 3rem; }
+    .footer .container .content .footer-bottom p { font-size: 0.9375rem; }
+}
