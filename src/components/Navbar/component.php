@@ -11,19 +11,19 @@
             <div class="links">
                 <ul>
                     <li class="link-item" data-target="home">
-                        <a href="/#home">Inicio</a>
+                        <a href="/#home" onclick="closeNavbar()">Inicio</a>
                     </li>
                     <li class="link-item" data-target="about">
-                        <a href="/#about">Nosotros</a>
+                        <a href="/#about" onclick="closeNavbar()">Nosotros</a>
                     </li>
                     <li class="link-item" data-target="services">
-                        <a href="/#services">Servicios Jurídicos</a>
+                        <a href="/#services" onclick="closeNavbar()">Servicios Jurídicos</a>
                     </li>
                     <li class="link-item" data-target="team">
-                        <a href="/team/">Equipo</a>
+                        <a href="/team/" onclick="closeNavbar()">Equipo</a>
                     </li>
                     <li class="link-item" data-target="contact">
-                        <a href="/#contact">Contacto</a>
+                        <a href="/#contact" onclick="closeNavbar()">Contacto</a>
                     </li>
                 </ul>
             </div>
