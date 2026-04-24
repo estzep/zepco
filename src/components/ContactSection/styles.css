@@ -54,6 +54,4 @@
     .contactSection .content .alert { left: 0.75rem; right: 0.75rem; top: 0.75rem; max-width: none; width: auto; }
 }
 
-@media (max-width: 575.98px) {
-    .contactSection .content .form form .formGroup2 { flex-direction: column; }
-}
+@media (max-width: 575.98px) {}
