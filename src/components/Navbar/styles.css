@@ -15,7 +15,7 @@
 
 .navbar .content .toggler { flex: 0 1 auto; width: auto; display: none; z-index: 11; }
 .navbar .content .toggler button { display: inline-block; background: transparent; border: none; padding: 0.1rem; margin: 0; line-height: 1; outline: none; }
-.navbar .content .toggler button span { display: block; width: 2rem; height: .1rem; background: var(--light-text); border-radius: 0; margin: 0.5rem 0; transition: 0.5s; }
+.navbar .content .toggler button span { display: block; width: 1.75rem; height: .1rem; background: var(--light-text); border-radius: 0; margin: 0.35rem 0; transition: 0.5s; }
 .navbar.open .content .toggler button span:first-child { transform: rotate(45deg) translateY(12px); }
 .navbar.open .content .toggler button span:nth-child(2) { opacity: 0; }
 .navbar.open .content .toggler button span:last-child { transform: rotate(-45deg) translateY(-14px); }
@@ -42,5 +42,5 @@
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .navbar .content .logo img { height: 2.75rem; }
+    .navbar .content .logo img { height: 2.5rem; }
 }
