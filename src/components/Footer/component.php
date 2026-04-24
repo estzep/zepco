@@ -4,7 +4,8 @@
     <div class="container">
         <div class="content">
             <div class="about">
-                <a href="/#home"><img src="/src/assets/img/full-zepco-logo.svg" alt="Logo de Zepco"></a>
+                <a href="/#home" class="logo-desktop"><img src="/src/assets/img/full-zepco-logo.svg" alt="Logo de Zepco"></a>
+                <a href="/#home" class="logo-mobile"><img src="/src/assets/img/zepco-logo.svg" alt="Logo de Zepco"></a>
                 <p>
                     <?php
                         $years = date("Y") - 1970;
