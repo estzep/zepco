@@ -5,3 +5,16 @@
 .errorHeroSection .content h1 { font-size: 6rem; font-weight: 400; color: var(--light-text); margin-bottom: 0; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
 .errorHeroSection .content h2 { font-size: 2.5rem; font-weight: 400; color: var(--light-text); margin-bottom: 1.5rem; line-height: 1.2; font-family: "RobotoSerif", sans-serif; }
 .errorHeroSection .content p { font-size: 1.25rem; font-weight: 400; color: var(--light-text); margin-bottom: 1rem; line-height: 1.4; }
+
+@media (max-width: 767.98px) {
+    .errorHeroSection .content { padding: calc(3rem + var(--navbar-height)) 0 4rem 0; }
+    .errorHeroSection .content h1 { font-size: 4.5rem; }
+    .errorHeroSection .content h2 { font-size: 2rem; }
+    .errorHeroSection .content p { font-size: 1.1rem; }
+}
+
+@media (max-width: 575.98px) {
+    .errorHeroSection .content h1 { font-size: 3.5rem; }
+    .errorHeroSection .content h2 { font-size: 1.625rem; }
+    .errorHeroSection .content p br { display: none; }
+}
