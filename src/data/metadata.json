@@ -1,12 +1,12 @@
 {
     "metadata": {
         "/": {
-            "title": "Zepeda & Torres, Abogados - Asesoría Legal",
+            "title": "Zepeda & Torres, Abogados",
             "description": "Zepeda & Torres, Abogados es un despacho en la Ciudad de México con experiencia en consultoría legal y litigio. Asesoría a empresas, particulares e inversionistas, con presencia en todo el país y corresponsales internacionales.",
             "robots": "index, follow"
         },
         "/team/": {
-            "title": "Zepeda & Torres, Abogados - Equipo",
+            "title": "Zepeda & Torres, Abogados — Equipo",
             "description": "Conoce a nuestro equipo de abogados especializados en asesoría legal y litigio. Servicios a empresas, particulares e inversionistas.",
             "robots": "index, nofollow"
         }
