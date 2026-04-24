@@ -1,5 +1,5 @@
 <?php
-    $servicesJson = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/src/data/services.json');
+    $servicesJson = file_get_contents(__DIR__ . '/../../data/services.json');
     $servicesData = json_decode($servicesJson, true);
     $services = $servicesData['services'];
 ?>

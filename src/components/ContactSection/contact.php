@@ -65,7 +65,7 @@ try {
 				'{{contactMethod}}'
 			],
 			[$cmReason, $cmMessage, $cmName, $cmTelFijo, $cmTelCelular, $cmEmail, $cmService, $cmContactMethod],
-			file_get_contents('../../components/ContactMail.html')
+			file_get_contents(__DIR__ . '/../ContactMail.html')
 		);
 
 		$zepcoMail = [

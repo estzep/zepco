@@ -1,5 +1,5 @@
 <?php
-$metadataJson = file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/src/data/metadata.json');
+$metadataJson = file_get_contents(__DIR__ . '/../../data/metadata.json');
 $metadataData = json_decode($metadataJson, true);
 $metadata = $metadataData['metadata'];
 
