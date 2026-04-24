@@ -13,9 +13,7 @@
 .team .content .teamMembers .teamMember .info a { font-size: 1rem; font-weight: 400; color: var(--dark-gold); margin-bottom: 0; line-height: 1.2; }
 
 @media (max-width: 1199.98px) {
-    .team .content .teamMembers .teamMember {
-        flex: 1 0 calc(50% - (var(--tm-gap) / 2));
-    }
+    .team .content .teamMembers .teamMember { flex: 1 0 calc(50% - (var(--tm-gap) / 2)); }
 }
 
 @media (max-width: 767.98px) {
@@ -24,8 +22,9 @@
 }
 
 @media (max-width: 575.98px) {
-    .team .content .teamMembers .teamMember {
-        flex: 1 0 100%;
-    }
     .team .content h4 { font-size: 1.75rem; }
+    .team .content .teamMembers .teamMember { flex: 1 0 100%; }
+    .team .content .teamMembers .teamMember .image { flex: 1 0 auto; height: auto; }
+    .team .content .teamMembers .teamMember .image img { min-height: 430px; }
+    .team .content .teamMembers .teamMember .info { flex: 1 0 15%; height: 15%; }
 }

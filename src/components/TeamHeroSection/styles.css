@@ -7,23 +7,14 @@
 
 @media (max-width: 991.98px) {
     .teamHeroSection .container { min-height: auto; }
-    .teamHeroSection .content {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 1.25rem;
-        padding: calc(3.5rem + var(--navbar-height)) 0 4.5rem 0;
-    }
+    .teamHeroSection .content { flex-direction: column; align-items: stretch; gap: 1.25rem; padding: calc(3.5rem + var(--navbar-height)) 0 4.5rem 0; }
     .teamHeroSection .content h3,
-    .teamHeroSection .content p {
-        flex: 1 0 auto;
-    }
+    .teamHeroSection .content p { flex: 1 0 auto; }
     .teamHeroSection .content h3 { font-size: 2.125rem; }
 }
 
 @media (max-width: 767.98px) {
-    .teamHeroSection .content {
-        padding: calc(3rem + var(--navbar-height)) 0 3.5rem 0;
-    }
+    .teamHeroSection .content { padding: calc(3rem + var(--navbar-height)) 0 3.5rem 0; }
     .teamHeroSection .content h3 { font-size: 1.875rem; }
     .teamHeroSection .content p { font-size: 1.1rem; }
 }
