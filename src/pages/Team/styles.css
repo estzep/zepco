@@ -11,3 +11,21 @@
 .team .content .teamMembers .teamMember .info p.position { font-size: 1rem; font-weight: 500; color: var(--text); margin-bottom: 0.75rem; line-height: 1.4; }
 .team .content .teamMembers .teamMember .info p.description { font-size: 1rem; font-weight: 400; color: var(--text); margin-bottom: 0.75rem; line-height: 1.2; }
 .team .content .teamMembers .teamMember .info a { font-size: 1rem; font-weight: 400; color: var(--dark-gold); margin-bottom: 0; line-height: 1.2; }
+
+@media (max-width: 1199.98px) {
+    .team .content .teamMembers .teamMember {
+        flex: 1 0 calc(50% - (var(--tm-gap) / 2));
+    }
+}
+
+@media (max-width: 767.98px) {
+    .team { padding: 3rem 0; }
+    .team .content h4 { font-size: 2rem; margin-bottom: 2rem; }
+}
+
+@media (max-width: 575.98px) {
+    .team .content .teamMembers .teamMember {
+        flex: 1 0 100%;
+    }
+    .team .content h4 { font-size: 1.75rem; }
+}
