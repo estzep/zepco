@@ -4,13 +4,10 @@
     <div class="container">
         <div class="content">
             <div class="about">
-                <a href="/#home" class="logo-desktop"><img src="/src/assets/img/full-zepco-logo.svg" alt="Logo de Zepco"></a>
-                <a href="/#home" class="logo-mobile"><img src="/src/assets/img/zepco-logo.svg" alt="Logo de Zepco"></a>
+                <a href="/#home" class="logo-desktop"><img src="/src/assets/img/full-zepco-logo.svg" alt="Zepeda &amp; Torres, Abogados"></a>
+                <a href="/#home" class="logo-mobile"><img src="/src/assets/img/zepco-logo.svg" alt="Zepeda &amp; Torres, Abogados"></a>
                 <p>
-                    <?php
-                        $years = date("Y") - 1970;
-                        echo "Somos un despacho de abogados en Ciudad de México con más de $years años de experiencia en temas de litigio.";
-                    ?>
+                    Somos un despacho de abogados en la Ciudad de México con más de 50 años de experiencia en consultoría legal y litigio, en todo el país y corresponsales internacionales.
                 </p>
             </div>
             <div class="link-columns">
@@ -31,7 +28,7 @@
                         <li><a>Propiedad Intelectual</a></li>
                         <li><a>Litigio en Materia Civil, Mercantil, Familiar y Corporativo</a></li>
                         <li><a>Investigación de Títulos de Propiedad</a></li>
-                        <li><a>Protección Matrimonial</a></li>
+                        <li><a>Protección Patrimonial</a></li>
                     </ul>
                 </div>
                 <div class="link-column">
@@ -44,7 +41,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>Copyright 2025 Todos los Derechos Reservados.</p>
+                <p>Copyright (C) 2025. Zepeda Abogados, S.C. Derechos Reservados</p>
                 <p><a href="/">Aviso de privacidad</a></p>
             </div>
         </div>

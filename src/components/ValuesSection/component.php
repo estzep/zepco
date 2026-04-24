@@ -13,7 +13,7 @@
                 'icon' => '/src/assets/icons/experience.svg',
                 'alt' => 'Experience',
                 'title' => 'Experiencia y Trayectoria',
-                'description' => 'Con casi 50 años de práctica jurídica, hemos acompañado a empresas, inversionistas y particulares en sus operaciones.'
+                'description' => 'Con más de 50 años de práctica jurídica, hemos acompañado a empresas, inversionistas y particulares en sus operaciones.'
             ],
             [
                 'id' => 'commitment',
@@ -33,7 +33,7 @@
     <div class="container">
         <div class="content">
             <h2>
-                Brindandote
+                Brindándote
                 <br>
                 Excelencia Jurídica
             </h2>

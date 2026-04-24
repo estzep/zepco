@@ -31,12 +31,22 @@
             "image": "/src/assets/img/team/vladimir.jpeg"
         },
         {
-            "id": 4,
+            "id": 5,
             "order": 4,
+            "username": "luis-federico-moreno",
+            "email": "zepedaabogados@zepco.com.mx",
+            "name": "Luis Federico Moreno Treviño",
+            "position": "Asociado",
+            "description": "",
+            "image": "/src/assets/img/team/placeholder.jpg"
+        },
+        {
+            "id": 4,
+            "order": 5,
             "username": "haide",
             "email": "arteaga1907@hotmail.com",
             "name": "Haidé Arteaga Prado",
-            "position": "Abogada",
+            "position": "Abogada Litigante",
             "description": "",
             "image": "/src/assets/img/team/placeholder.jpg"
         }

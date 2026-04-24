@@ -7,7 +7,7 @@
             <h1>Brindando servicios profesionales de abogacía en México</h1>
             <p class="subtitle">
                 <?php
-                    $years = date("Y") - 1970;
+                    $years = max(50, (int) date("Y") - 1975);
                     echo "Con más de $years años de experiencia asesorando, protegiendo y representando a nuestros clientes.";
                 ?>
             </p>
