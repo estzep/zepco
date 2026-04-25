@@ -32,11 +32,21 @@
         },
         {
             "id": 4,
-            "order": 4,
+            "order": 5,
             "username": "haide",
             "email": "arteaga1907@hotmail.com",
             "name": "Haidé Arteaga Prado",
-            "position": "Abogada",
+            "position": "Abogada Litigante",
+            "description": "",
+            "image": "/src/assets/img/team/placeholder.jpg"
+        },
+        {
+            "id": 5,
+            "order": 4,
+            "username": "luis-federico-moreno",
+            "email": "",
+            "name": "Luis Federico Moreno Treviño",
+            "position": "Asociado",
             "description": "",
             "image": "/src/assets/img/team/placeholder.jpg"
         }

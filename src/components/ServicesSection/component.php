@@ -12,6 +12,7 @@
             <h2>Servicios Jurídicos</h2>
             <div class="serviceCards">
                 <?php foreach($services as $service): ?>
+                <?php if (($service['show'] ?? true) === false) { continue; } ?>
                 <div id="service-<?php echo $service['name']; ?>" class="serviceCard">
                     <div class="image">
                         <img src="<?php echo $service['image']; ?>" alt="<?php echo $service['name']; ?>">

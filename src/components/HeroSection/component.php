@@ -6,10 +6,7 @@
         <div class="content">
             <h1>Brindando servicios profesionales de abogacía en México</h1>
             <p class="subtitle">
-                <?php
-                    $years = date("Y") - 1970;
-                    echo "Con más de $years años de experiencia asesorando, protegiendo y representando a nuestros clientes.";
-                ?>
+                Con más de 50 años de experiencia asesorando, protegiendo y representando a nuestros clientes.
             </p>
        
         </div>

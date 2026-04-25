@@ -30,10 +30,17 @@
         },
         {
             "id": 5,
-            "name": "proteccion-matrimonial",
-            "title": "Protección Matrimonial",
+            "name": "proteccion-patrimonial",
+            "title": "Protección Patrimonial",
             "description": "Diseñamos estrategias legales para proteger su patrimonio, incluyendo capitulaciones, fideicomisos, testamentos y estructuras patrimoniales.",
             "image": "/src/assets/img/services/proteccion-matrimonial.png"
+        },
+        {
+            "id": 6,
+            "name": "otros",
+            "title": "Otros",
+            "description": "Otro asunto o consulta no listada en los servicios anteriores.",
+            "show": false
         }
     ]
-} 
+}
