@@ -5,17 +5,22 @@
 
 .navbar .content .logo { flex: 0 1 auto; width: auto; z-index: 11; }
 .navbar .content .logo a { display: inline-block; width: 100%; height: 100%; }
-.navbar .content .logo img { width: auto; height: 3.25rem; object-fit: contain; }
+.navbar .content .logo img { width: auto; height: 3.25rem; object-fit: contain; filter: var(--white-filter); transition: 0.5s; }
+.navbar.scrolled .content .logo img { filter: invert(0); }
 
 .navbar .content .links { flex: 1 0 auto; width: auto; }
 .navbar .content .links ul { height: 100%; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: flex-end; align-items: center; gap: 1.5rem; list-style: none; padding: 0; margin: 0; }
 .navbar .content .links ul li { flex: 0 1 auto; width: auto; transition: 0.5s; border-bottom: 1px solid transparent; }
 .navbar .content .links ul li.active { border-bottom: 1px solid var(--light-text); }
 .navbar .content .links ul li a { display: inline-block; font-size: 1rem; font-weight: 400; line-height: 1; color: var(--light-text); text-decoration: none; padding: 0.75rem 1rem; }
+.navbar.scrolled .content .links ul li.active { border-bottom-color: var(--text); }
+.navbar.scrolled .content .links ul li a { color: var(--text); }
 
 .navbar .content .toggler { flex: 0 1 auto; width: auto; display: none; z-index: 11; }
 .navbar .content .toggler button { display: inline-block; background: transparent; border: none; padding: 0.1rem; margin: 0; line-height: 1; outline: none; }
 .navbar .content .toggler button span { display: block; width: 1.75rem; height: .1rem; background: var(--light-text); border-radius: 0; margin: 0.35rem 0; transition: 0.5s; }
+.navbar.scrolled .content .toggler button span { background: var(--text); }
+.navbar.open .content .toggler button span { background: var(--light-text); }
 .navbar.open .content .toggler button span:first-child { transform: rotate(45deg) translateY(10px); }
 .navbar.open .content .toggler button span:nth-child(2) { opacity: 0; }
 .navbar.open .content .toggler button span:last-child { transform: rotate(-45deg) translateY(-10px); }
@@ -30,6 +35,8 @@
 @media (max-width: 991.98px) {
     .navbar.open { background: var(--dark-blue); margin-top: calc(var(--contact-bar-height) * -1); }
     .navbar.scrolled.open { margin-top: 0; }
+    .navbar.scrolled.open .content .links ul li.active { border-bottom-color: var(--light-text); }
+    .navbar.scrolled.open .content .links ul li a { color: var(--light-text); }
     .navbar .content { align-items: center; }
     .navbar .content .toggler { display: block; }
     .navbar.open .content .links { transform: translateY(0); opacity: 1; }
