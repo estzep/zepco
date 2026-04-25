@@ -6,7 +6,7 @@
             <div class="about">
                 <a href="/#home"><img src="/src/assets/img/zepco-logo.svg" alt="Zepeda & Torres Abogados"></a>
                 <p>
-                    Somos un despacho de abogados en la Ciudad de México con más de 50 años de experiencia en consultoría legal y litigio, en todo el país y corresponsales internacionales.
+                    Somos un despacho de abogados en la Ciudad de México con más de 50 años de experiencia en consultoría legal y litigio en todo el país y corresponsales internacionales.
                 </p>
             </div>
             <div class="link-columns">
