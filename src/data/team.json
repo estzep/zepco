@@ -39,16 +39,6 @@
             "position": "Abogada Litigante",
             "description": "",
             "image": "/src/assets/img/team/placeholder.jpg"
-        },
-        {
-            "id": 5,
-            "order": 4,
-            "username": "luis-federico-moreno",
-            "email": "",
-            "name": "Luis Federico Moreno Treviño",
-            "position": "Asociado",
-            "description": "",
-            "image": "/src/assets/img/team/placeholder.jpg"
         }
     ]
 }
