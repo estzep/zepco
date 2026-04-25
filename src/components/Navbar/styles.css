@@ -20,7 +20,7 @@
 .navbar .content .toggler button { display: inline-block; background: transparent; border: none; padding: 0.1rem; margin: 0; line-height: 1; outline: none; }
 .navbar .content .toggler button span { display: block; width: 1.75rem; height: .1rem; background: var(--light-text); border-radius: 0; margin: 0.35rem 0; transition: 0.5s; }
 .navbar.scrolled .content .toggler button span { background: var(--text); }
-.navbar.open .content .toggler button span { background: var(--light-text); }
+.navbar.open .content .toggler button span { background: var(--text); }
 .navbar.open .content .toggler button span:first-child { transform: rotate(45deg) translateY(10px); }
 .navbar.open .content .toggler button span:nth-child(2) { opacity: 0; }
 .navbar.open .content .toggler button span:last-child { transform: rotate(-45deg) translateY(-10px); }
@@ -33,13 +33,10 @@
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    .navbar { background: var(--white); }
-    .navbar .content .logo img { filter: invert(0); }
-    .navbar .content .links ul li.active { border-bottom-color: var(--text); }
-    .navbar .content .links ul li a { color: var(--text); }
-    .navbar .content .toggler button span { background: var(--text); }
     .navbar.open { background: var(--white); margin-top: calc(var(--contact-bar-height) * -1); }
     .navbar.scrolled.open { margin-top: 0; }
+    .navbar.scrolled.open .content .links ul li.active { border-bottom-color: var(--text); }
+    .navbar.scrolled.open .content .links ul li a { color: var(--text); }
     .navbar .content { align-items: center; }
     .navbar .content .toggler { display: block; }
     .navbar.open .content .links { transform: translateY(0); opacity: 1; }
