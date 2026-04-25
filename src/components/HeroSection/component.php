@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="/src/components/HeroSection/styles.css">
 
 <section id="home" class="heroSection">
-    <img src="/src/assets/img/heroSection1.png" alt="Hero Section 1">
+    <img src="/src/assets/img/heroSection1.jpg" alt="Hero Section 1">
     <div class="container">
         <div class="content">
             <h1>Brindando servicios profesionales de abogacía en México</h1>
