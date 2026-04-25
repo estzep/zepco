@@ -5,7 +5,7 @@ $metadata = $metadataData['metadata'];
 
 $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-$title = $metadata[$page]['title'] ?? 'Zepeda & Torres, Abogados';
+$title = $metadata[$page]['title'] ?? 'Zepeda & Torres Abogados';
 $description = $metadata[$page]['description'] ?? '';
 $robots = $metadata[$page]['robots'] ?? 'noindex, nofollow';
 ?>
