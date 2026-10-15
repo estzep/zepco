@@ -1,4 +1,20 @@
 {
+    "site": {
+        "name": "Zepeda & Torres Abogados",
+        "legalName": "Zepeda Abogados, S.C.",
+        "url": "https://zepco.mx",
+        "locale": "es_MX",
+        "ogImage": "/src/assets/img/full-zepco-logo.svg",
+        "logo": "/src/assets/img/zepco-logo.svg",
+        "email": "zepedaabogados@zepco.com.mx",
+        "telephone": "+52-55-5260-6244",
+        "address": {
+            "streetAddress": "Calle Bahía de la Concepción #14 Cuarto Piso, Colonia Verónica Anzures",
+            "addressLocality": "Ciudad de México",
+            "postalCode": "11300",
+            "addressCountry": "MX"
+        }
+    },
     "metadata": {
         "/": {
             "title": "Zepeda & Torres Abogados",
