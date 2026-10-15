@@ -8,7 +8,7 @@
                     Bienvenido a Zepeda & Torres Abogados
                 </h2>
                 <p>
-                    La fundación de Zepeda & Torres se remonta al año de 1975, formalmente bajo el nombre de Bufete Zepeda Trujillo, a partir del cual comienza a prestar servicios profesionales de abogacía, tanto en su aspecto de asesoría en materia de planeación legal, negociaciones, contrataciones e investigaciones, como de litigio.
+                    La fundación de Zepeda & Torres se remonta al año de 1975, formalmente bajo el nombre de Bufete Zepeda Trujillo, actualmente <strong>ZEPEDA ABOGADOS, S. C.</strong>, a partir del cual comienza a prestar servicios profesionales de abogacía, tanto en su aspecto de asesoría en materia de planeación legal, negociaciones, contrataciones e investigaciones, como de litigio.
                     <br>
                     <br>
                     Nuestro equipo cuenta con amplia experiencia en la planeación legal de proyectos inmobiliarios y corporativos, tanto a nivel nacional como internacional, incluyendo jurisdicciones de Common Law.
