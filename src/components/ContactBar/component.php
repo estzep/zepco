@@ -13,7 +13,7 @@
                     <a href="tel:+525552606244,0"><img src="/src/assets/icons/phone.svg" alt="phone" class="icon">+52 (55) 5260 6244 ext. 0</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:zepedaabogados@zepco.com.mx"><img src="/src/assets/icons/mail.svg" alt="email" class="icon">zepedaabogados@zepco.com.mx</a>
+                    <a href="mailto:contacto@zepco.mx"><img src="/src/assets/icons/mail.svg" alt="email" class="icon">contacto@zepco.mx</a>
                 </p>
             </div>
         </div>
