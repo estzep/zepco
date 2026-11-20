@@ -14,3 +14,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteCond %{REQUEST_URI} !^/index\.php$
 RewriteRule ^(.*)$ /index.php [L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Este dominio hereda el paquete “PHP”.
+# php -- END cPanel-generated handler, do not edit
