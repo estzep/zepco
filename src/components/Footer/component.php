@@ -26,7 +26,7 @@
                         <li><a>Derecho Inmobiliario</a></li>
                         <li><a>Propiedad Intelectual</a></li>
                         <li><a>Litigio en Materia Civil, Mercantil, Familiar y Corporativo</a></li>
-                        <li><a>Investigación de Títulos de Propiedad</a></li>
+                        <li><a>Estructuración Corporativa</a></li>
                         <li><a>Protección Patrimonial</a></li>
                     </ul>
                 </div>
