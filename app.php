@@ -12,7 +12,6 @@
                 include('src/pages/Team/page.php');
                 break;
             default:
-                http_response_code(404);
                 include('src/pages/Error/page.php');
                 break;
         }
